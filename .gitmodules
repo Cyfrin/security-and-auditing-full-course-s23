@@ -1,3 +1,6 @@
-[submodule "4-nft-raffle-audit/lib/forge-std"]
-	path = 4-nft-raffle-audit/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
+[submodule "3-passwordstore-audit"]
+	path = 3-passwordstore-audit
+	url = https://github.com/cyfrin/3-passwordstore-audit
+[submodule "4-nft-raffle-audit"]
+	path = 4-nft-raffle-audit
+	url = https://github.com/cyfrin/4-nft-raffle-audit
