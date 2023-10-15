@@ -1,3 +1,6 @@
+QUESTIONS:
+1. Should L4 H-3 `### [H-3] Integer overflow of `PuppyRaffle::totalFees` loses fees` be a medium? 
+
 
 <p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 1.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>

@@ -1,0 +1,11 @@
+{
+    "detectors_to_exclude": "conformance-to-solidity-naming-conventions,incorrect-versions-of-solidity",
+    "exclude_informational": false,
+    "exclude_low": false,
+    "exclude_medium": false,
+    "exclude_high": false,
+    "disable_color": false,
+    "filter_paths": "(mocks/|test/|script/|upgradedProtocol/)",
+    "legacy_ast": false,
+    "exclude_dependencies": true
+}
