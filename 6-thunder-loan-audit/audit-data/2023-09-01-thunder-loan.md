@@ -68,6 +68,7 @@ Assisting Auditors:
   - [Gas](#gas)
     - [\[GAS-1\] Using bools for storage incurs overhead](#gas-1-using-bools-for-storage-incurs-overhead)
     - [\[GAS-2\] Using `private` rather than `public` for constants, saves gas](#gas-2-using-private-rather-than-public-for-constants-saves-gas)
+    - [\[GAS-3\] Unnecessary SLOAD when logging new exchange rate](#gas-3-unnecessary-sload-when-logging-new-exchange-rate)
 </details>
 </br>
 
@@ -87,6 +88,9 @@ The YOUR_NAME_HERE team makes all effort to find as many vulnerabilities in the 
 |            | High   | H      | H/M    | M   |
 | Likelihood | Medium | H/M    | M      | M/L |
 |            | Low    | M      | M/L    | L   |
+
+We use the [CodeHawks](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity) severity matrix to determine severity. See the documentation for more details.
+
 
 # Audit Details
 

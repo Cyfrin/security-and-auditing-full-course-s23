@@ -210,13 +210,15 @@ contract ThunderLoan is Initializable, OwnableUpgradeable, UUPSUpgradeable, Orac
         // slither-disable-next-line unused-return reentrancy-vulnerabilities-2
         receiverAddress.functionCall(
             abi.encodeCall(
-                IFlashLoanReceiver.executeOperation, (
-                address(token),
-                amount,
-                fee,
-                msg.sender, // initiator
-                params
-            ))
+                IFlashLoanReceiver.executeOperation,
+                (
+                    address(token),
+                    amount,
+                    fee,
+                    msg.sender, // initiator
+                    params
+                )
+            )
         );
 
         uint256 endingBalance = token.balanceOf(address(assetToken));
