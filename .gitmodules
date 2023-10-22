@@ -10,9 +10,9 @@
 [submodule "6-thunder-loan-audit"]
 	path = 6-thunder-loan-audit
 	url = https://github.com/cyfrin/6-thunder-loan-audit
-[submodule "7-vault-guardians-audit"]
-	path = 7-vault-guardians-audit
-	url = https://github.com/cyfrin/7-vault-guardians-audit
-[submodule "8-boss-bridge-audit"]
-	path = 8-boss-bridge-audit
-	url = https://github.com/cyfrin/8-boss-bridge-audit
+[submodule "7-boss-bridge-audit"]
+	path = 7-boss-bridge-audit
+	url = https://github.com/cyfrin/7-boss-bridge-audit
+[submodule "8-vault-guardians-audit"]
+	path = 8-vault-guardians-audit
+	url = https://github.com/cyfrin/8-vault-guardians-audit
