@@ -16,3 +16,9 @@
 [submodule "8-vault-guardians-audit"]
 	path = 8-vault-guardians-audit
 	url = https://github.com/cyfrin/8-vault-guardians-audit
+[submodule "9-wallet-and-key-management"]
+	path = 9-wallet-and-key-management
+	url = https://github.com/cyfrin/9-wallet-and-key-management
+[submodule "10-evm-assembly-huff-yul"]
+	path = 10-evm-assembly-huff-yul
+	url = https://github.com/cyfrin/10-evm-assembly-huff-yul
