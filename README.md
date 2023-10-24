@@ -16,7 +16,6 @@ Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Se
 
 Video: *Coming soon...*
 
-
 # Table of Contents
 
 ## Part 1
