@@ -14,6 +14,8 @@ _Made with love by [Cyfrin](https://www.cyfrin.io/) & [The Red Guild](https://th
 
 Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course!
 
+Video: *Coming soon...*
+
 
 # Table of Contents
 
