@@ -618,7 +618,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/3-passwordstore-audit][https://github.com/Cyfrin/3-passwordstore-audit]
+💻 Audit Code: [https://github.com/Cyfrin/3-passwordstore-audit](https://github.com/Cyfrin/3-passwordstore-audit)
 
 Feel free to look ahead and try to find the bugs on the codebase yourself, or get familiar with the protocol first.
 
@@ -681,7 +681,7 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/4-puppy-raffle-audit][https://github.com/Cyfrin/4-puppy-raffle-audit]
+💻 Audit Code: [https://github.com/Cyfrin/4-puppy-raffle-audit](https://github.com/Cyfrin/4-puppy-raffle-audit)
 
 *Concepts you'll learn: Static analysis, Reentrancy, Weak RNG, Arithmetic issues, How to write a professional looking report.*
 
@@ -746,7 +746,7 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/5-t-swap-audit][https://github.com/Cyfrin/5-t-swap-audit]
+💻 Audit Code: [https://github.com/Cyfrin/5-t-swap-audit](https://github.com/Cyfrin/5-t-swap-audit)
 
 *Concepts you'll learn: Stateful fuzzing, Fuzzing, Invariants, FREI-PI/CEII, Advanced DeFi, AMMs, Uniswap, Curve.fi, Constant product formula*
 
