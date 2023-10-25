@@ -452,7 +452,10 @@ IF YOU DECIDE TO MINT THE REAL NFT:
 *Do not skip this section!*
 
 ## Welcome
-## Why Security?
+## Why Web3 Security?
+- Web3 is important
+  - Permissionless finance
+  - Unbreakable promises
 - Web3 security is subpar right now
     - [Rekt Leaderboard](https://rekt.news/leaderboard/)
     - [$1B in 2023](https://www.theblock.co/post/248550/web3-losses-exceed-1-billion-in-2023-base-exploits) (so far)
@@ -478,6 +481,8 @@ IF YOU DECIDE TO MINT THE REAL NFT:
 ## Why Web3 is so important
   - Rebuild trust in the ecosystem.   
   - Wild West image to the outsiders
+
+- [Pick a class](https://github.com/devtooligan/etherrealms-player-class-guide)
 
 ## The Final Boss Codebase, you'll be able to audit this at the end of this course
 - [Vault Guardians](https://github.com/Cyfrin/8-vault-guardians-audit)
@@ -507,22 +512,48 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # 🐸 Section 1: Review (Don't skip)
-- Prereqs & Environment
-- Solidity & Smart Contracts
-- Foundry
+## Prereqs & Environment
+  - VSCode
+  - VSCodium
+  - [Foundry](https://book.getfoundry.sh/)
     - chisel
     - cast
-    - mainnet-forking
-- AI Helpers (ChatGPT)
-- Forums & Resources
-- ERC20s
-- NFTs (ERC721s)
-- Fallback & Receive
-- Encoding, Call, & Staticcall
-- Delegatecall & Proxies
-- storage
-- tx.origin vs msg.sender
-- Selfdestruct (to be removed in an upcoming fork)
+    - forge
+  - [Windows Users: WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+  - AI Helpers 
+    - ChatGPT
+    - Phind
+  - Forums & Resources
+    - Ethereum Stack Exchange
+    - Peeranha
+    - Github Discussions
+## Solidity & Smart Contracts
+  - [Remix](https://remix.ethereum.org/)
+  - Basic smart contracts
+    - `forge init`
+## Fuzzing & Stateful Fuzzing (This might be new)
+  - Fuzz tests
+  - Stateful fuzzing / Invariant tests
+    - [Video](https://www.youtube.com/watch?v=juyY-CTolac)
+## Common EIPs/ERCs
+  - Github Copilot
+  - ERC20s
+    - [Video](https://www.youtube.com/watch?v=8rpir_ZSK1g)
+  - NFTs (ERC721s)
+    - [Video](https://www.youtube.com/watch?v=9yuHz6g_P50)
+## Advanced Solidity 
+  - storage 
+    - Clip from foundry course
+  - Fallback & Receive
+  - Encoding, Call, & Staticcall
+    - Clip from the foundry full course
+  - Delegatecall & Proxies 
+    - Clip from foundry full course
+  - tx.origin vs msg.sender 
+  - Selfdestruct (to be removed in an upcoming fork) 
+    - [Solidity by example](https://solidity-by-example.org/hacks/self-destruct/)
+## Advanced Foundry
+  - mainnet-forking
 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
 
@@ -539,6 +570,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 # ❓ Section 2: What is a smart contract audit (Security Review)?
 
 ## What is a security review/smart contract audit?
+  - [High Level Overview](https://www.youtube.com/watch?v=aOqhQvWhUG0)
   - People say "audit" -> security review
   - There is no silver bullet to auditing, and they have limitations 
   - 3 phases of a security review
@@ -562,12 +594,6 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - Deploy
   - Monitor & Maintain
 ## [Top Smart Contract Auditors (Subjective!)](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
-## Tooling
-  - Static Analysis
-  - Fuzzing / Invariant Tests
-  - Formal Verification
-  - AI
-  - [Tooling vs Humans](https://github.com/ZhangZhuoSJTU/Web3Bugs)
 ## Audit Readiness
   - [Simple Security Checklist](https://github.com/nascentxyz/simple-security-toolkit)
       - Test suite with code coverage
@@ -575,6 +601,21 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
       - Natspec (especially for external/public functions)
   - [The Rekt Test](https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/)
       - ”Code maturity” is important! 
+## Tooling
+  - Static Analysis
+    - Slither
+    - Aderyn
+  - Fuzzing / Invariant Tests
+    - Foundry
+    - Echidna
+    - Consensys
+  - Formal Verification
+    - Certora
+    - Solidity SMT Checker
+    - Maat
+    - Manticore
+  - AI
+  - [Tooling vs Humans](https://github.com/ZhangZhuoSJTU/Web3Bugs)
 ## Attacker vs. Defender mindset
 - Always learning
 
@@ -609,7 +650,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 
-# ⛳️ Section 3: Your first audit | PasswordStore Audit
+# ⛳️ Section 3: Your first audit (security review) | PasswordStore Audit
 
 <br/>
 <p align="center">
@@ -619,18 +660,29 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/3-passwordstore-audit](https://github.com/Cyfrin/3-passwordstore-audit)
+💻 Security Review CodeV1: [https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b](https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b)
+
+💻 Security Review CodeV2: [https://github.com/Cyfrin/3-passwordstore-audit](https://github.com/Cyfrin/3-passwordstore-audit)
+
+💻 Security Review CodeV3: [https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded](https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded)
+
+💻 Security Review CodeV3: 
 
 Feel free to look ahead and try to find the bugs on the codebase yourself, or get familiar with the protocol first.
 
-## Security Review > Audit
+## The Setup (Scoping): PasswordStore
+  - "Hey, here is my link to Etherscan, can I get an audit?"
+    - [Coinbase asset listing guide](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
+  - Client onboarding: Minimal
+  - `cloc`
+## Security Review (Reconnaissance) > Audit
   - Look at my T-Shirt
 ## "The Tincho"
   - Read docs
   - Note taking in-code
   - Small -> Large
   - Tincho’s[ ENS Review](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
-## Exploits
+## Exploits (Vulnerability Identification)
 ### Exploits: Access Controls
   - Missing `onlyowner`
       - Access Controls
@@ -646,10 +698,25 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
       - Write finding
       - Write PoC (Also for missing `onlyOwner`)
       - Mitigation
-## Your first report
+## Your first report (Reporting)
 - Writing the Report
     - Severity Classification
     - Basic Markdown Report
+    - How to write a good finding
+      - Title: Root Cause + Impact 
+      - [Severity Guide](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity)
+      - Finding Layout:
+```
+### [S-#] Title (ROOT CAUSE + IMPACT)
+
+**Description:** 
+
+**Impact:** 
+
+**Proof of Concept:**
+
+**Recommended Mitigation:** 
+```
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
 
@@ -682,7 +749,7 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/4-puppy-raffle-audit](https://github.com/Cyfrin/4-puppy-raffle-audit)
+💻 Security Review Code: [https://github.com/Cyfrin/4-puppy-raffle-audit](https://github.com/Cyfrin/4-puppy-raffle-audit)
 
 *Concepts you'll learn: Static analysis, Reentrancy, Weak RNG, Arithmetic issues, How to write a professional looking report.*
 
@@ -730,6 +797,7 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 2. Sign up for [Solodit](https://solodit.xyz/)
 3. [Post a tweet about how you completed the Puppy Raffle Audit!](https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%40cyfrinaudits%20Puppy%20Raffle%20%F0%9F%90%B6%20Audit%20from%20the%20Ultimate%20Security%20Course.%0a%0aThanks%20%40patrickalphac!)
 4. [Sign up for farcaster](https://www.farcaster.xyz/)
+5. Do a [CodeHawks First Flight](https://www.codehawks.com/first-flights)
 
 ### Section 4 NFT
 - *Coming soon*
@@ -747,11 +815,13 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/5-t-swap-audit](https://github.com/Cyfrin/5-t-swap-audit)
+💻 Security Review Code: [https://github.com/Cyfrin/5-t-swap-audit](https://github.com/Cyfrin/5-t-swap-audit)
 
 *Concepts you'll learn: Stateful fuzzing, Fuzzing, Invariants, FREI-PI/CEII, Advanced DeFi, AMMs, Uniswap, Curve.fi, Constant product formula*
 
-## Scoping & Reconnaissance: T-Swap
+## The Setup (Scoping): T-Swap
+  - Client onboarding: Extensive
+## Reconnaissance: T-Swap
    - Protocol Invariants
    - [FREI-PI/CEI](https://www.nascent.xyz/idea/youre-writing-require-statements-wrong)
 ### Intro to DeFi/OnChain Finance
@@ -800,7 +870,7 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/6-thunder-loan-audit](https://github.com/Cyfrin/6-thunder-loan-audit)
+💻 Security Review Code: [https://github.com/Cyfrin/6-thunder-loan-audit](https://github.com/Cyfrin/6-thunder-loan-audit)
 
 *We are staritng to get more advanced with DeFi and smart contract issues. Buckle up, we are getting hotter.*
 
@@ -857,7 +927,7 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/7-boss-bridge-audit](https://github.com/Cyfrin/7-boss-bridge-audit)
+💻 Security Review Code: [https://github.com/Cyfrin/7-boss-bridge-audit](https://github.com/Cyfrin/7-boss-bridge-audit)
 
 ## Tooling: Boss Bridge
   - AI
@@ -908,7 +978,7 @@ We will learn "the Hans'"
 </p>
 <br/>
 
-💻 Audit Code: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
+💻 Security Review Code: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
 
 ## Concepts: Vault Guardians
    - [Tokenized Vaults (ERC-4626)](https://eips.ethereum.org/EIPS/eip-4626)
