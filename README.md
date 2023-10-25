@@ -666,7 +666,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 💻 Security Review CodeV3: [https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded](https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded)
 
-💻 Security Review CodeV3: 
+💻 Security Review Final: https://github.com/Cyfrin/3-passwordstore-audit/tree/audit-data
 
 Feel free to look ahead and try to find the bugs on the codebase yourself, or get familiar with the protocol first.
 
