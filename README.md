@@ -670,6 +670,25 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 Feel free to look ahead and try to find the bugs on the codebase yourself, or get familiar with the protocol first.
 
+Remember the phases!
+
+🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
+- Initial Review 
+    - 0. Scoping
+    - 1. Reconnaissance
+    - 2. Vulnerability identification 
+    - 3. Reporting 
+🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼
+
+For this demo, we are ignoring the last 2 phases
+- Protocol fixes
+    - 1. Fixes issues
+    - 2. Retests and adds tests
+- Mitigation Review
+    - 1. Reconnaissance
+    - 2. Vulnerability identification 
+    - 3. Reporting 
+
 ## The Setup (Scoping): PasswordStore
   - "Hey, here is my link to Etherscan, can I get an audit?"
     - [Coinbase asset listing guide](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
