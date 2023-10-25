@@ -673,11 +673,13 @@ Feel free to look ahead and try to find the bugs on the codebase yourself, or ge
 Remember the phases!
 
 🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽
+
 - Initial Review 
     - 0. Scoping
     - 1. Reconnaissance
     - 2. Vulnerability identification 
     - 3. Reporting 
+  
 🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼
 
 For this demo, we are ignoring the last 2 phases
