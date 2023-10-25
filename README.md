@@ -303,12 +303,12 @@ Video: *Coming soon...*
   - [V1](#v1)
     - [V2](#v2)
     - [V3](#v3)
-  - [Security Review (Reconnaissance) \> Audit](#security-review-reconnaissance--audit)
   - ["The Tincho"](#the-tincho)
   - [Exploits (Vulnerability Identification)](#exploits-vulnerability-identification)
     - [Exploits: Access Controls](#exploits-access-controls)
-  - [Writing your first finding](#writing-your-first-finding)
     - [Exploits: Private Data](#exploits-private-data)
+    - [More Recon](#more-recon)
+  - [Writing your first finding](#writing-your-first-finding)
   - [Your first report (Reporting)](#your-first-report-reporting)
     - [Section 3 NFT](#section-3-nft)
 - [🐶 Section 4: Manual \& Static Analysis | Puppy Raffle Audit](#-section-4-manual--static-analysis--puppy-raffle-audit)
@@ -714,13 +714,12 @@ For this demo, we are ignoring the last 2 phases
   - Client onboarding: Minimal
 ### V3
   - `cloc`
-## Security Review (Reconnaissance) > Audit
-  - Look at my T-Shirt
 ## "The Tincho"
   - Read docs
   - Note taking in-code
   - Small -> Large
-  - Tincho’s[ ENS Review](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
+  - [Solidity Metrics](https://github.com/Consensys/solidity-metrics)
+  - [Tincho’s ENS Review](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
 ## Exploits (Vulnerability Identification)
 ### Exploits: Access Controls
   - Missing `onlyowner`
@@ -728,15 +727,13 @@ For this demo, we are ignoring the last 2 phases
           - Unprotected sensitive functions
           - Role misconfiguration
           - Privilege escalation
+### Exploits: Private Data
+  - Storing a secret (private data is not private)
+### More Recon
 ## Writing your first finding
   - Write finding
   - Write PoC
   - Mitigation
-### Exploits: Private Data
-  - Storing a secret (private data is not private)
-      - Write finding
-      - Write PoC (Also for missing `onlyOwner`)
-      - Mitigation
 ## Your first report (Reporting)
 - Writing the Report
     - Severity Classification
