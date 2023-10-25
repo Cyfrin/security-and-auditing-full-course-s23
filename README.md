@@ -47,13 +47,13 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>Curriculum</summary>
+<summary><a href="#curriculum">Curriculum</a></summary>
 <ol>
 <li><a href="#curriculum">Curriculum</a></li>
 </ol>
 </details>
 <details>
-<summary>🤗 Section 0: Welcome to the Course</summary>
+<summary><a href="#-section-0-welcome-to-the-course">🤗 Section 0: Welcome to the Course</a></summary>
 <ol>
 <li><a href="#welcome">Welcome</a></li>
 <li><a href="#why-security">Why Security?</a></li>
@@ -64,13 +64,13 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>🐸 Section 1: Review (Don't skip)</summary>
+<summary><a href="#-section-1-review-dont-skip">🐸 Section 1: Review (Don't skip)</a></summary>
 <ol>
 <li><a href="#section-1-nft">Section 1 NFT</a></li>
 </ol>
 </details>
 <details>
-<summary>❓ Section 2: What is a smart contract audit (Security Review)?</summary>
+<summary><a href="#-section-2-what-is-a-smart-contract-audit-security-review">❓ Section 2: What is a smart contract audit (Security Review)?</a></summary>
 <ol>
 <li><a href="#what-is-a-security-reviewsmart-contract-audit">What is a security review/smart contract audit?</a></li>
 <li><a href="#smart-contract-development-life-cycle">Smart Contract Development Life Cycle</a></li>
@@ -83,7 +83,7 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>⛳️ Section 3: Your first audit | PasswordStore Audit</summary>
+<summary><a href="#️-section-3-your-first-audit-security-review--passwordstore-audit">⛳️ Section 3: Your first audit | PasswordStore Audit</a></summary>
 <ol>
 <li><a href="#security-review--audit">Security Review &gt; Audit</a></li>
 <li><a href="#the-tincho">"The Tincho"</a></li>
@@ -96,7 +96,7 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>🐶 Section 4: Manual & Static Analysis | Puppy Raffle Audit</summary>
+<summary><a href="#-section-4-manual--static-analysis--puppy-raffle-audit">🐶 Section 4: Manual & Static Analysis | Puppy Raffle Audit</summary>
 <ol>
 <li><a href="#tooling-static-analysis">Tooling: Static Analysis</a></li>
 <li><a href="#scoping--reconnaissance-puppy-raffle">Scoping & Reconnaissance: Puppy Raffle</a></li>
@@ -113,7 +113,7 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>🔄 Section 5: Invariants & Intro to DeFi | TSwap Audit</summary>
+<summary><a href="#-section-5-invariants--intro-to-defi--tswap-audit">🔄 Section 5: Invariants & Intro to DeFi | TSwap Audit</a></summary>
 <ol>
 <li><a href="#scoping--reconnaissance-t-swap">Scoping & Reconnaissance: T-Swap</a></li>
 <li><a href="#intro-to-defionchain-finance">Intro to DeFi/OnChain Finance</a></li>
@@ -125,7 +125,7 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>🌩️ Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit</summary>
+<summary><a href="#section-6-centralization-proxies-and-oracles--thunder-loan-audit">🌩️ Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit</a></summary>
 <ol>
 <li><a href="#section-6-centralization-proxies-and-oracles--thunder-loan-audit">Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit</a></li>
 <li><a href="#scoping--reconnaissance-thunder-loan">Scoping & Reconnaissance: Thunder Loan</a>
@@ -149,7 +149,7 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</summary>
+<summary><a href="#section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></summary>
 <ol>
 <li><a href="#section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></li>
 <li><a href="#tooling-boss-bridge">Tooling: Boss Bridge</a></li>
@@ -171,7 +171,7 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</summary>
+<summary><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></summary>
 <ol>
 <li><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></li>
 <li><a href="#concepts-vault-guardians">Concepts: Vault Guardians</a>
@@ -199,7 +199,7 @@ Video: *Coming soon...*
 ## Part 2
 
 <details>
-<summary>Section 9: Wallet & Key Management</summary>
+<summary><a href="#section-9-wallet--key-management">Section 9: Wallet & Key Management</a></summary>
 <ol>
 <li><a href="#section-9-wallet--key-management">Section 9: Wallet & Key Management</a></li>
 <li><a href="#wallet-types">Wallet types</a></li>
@@ -209,28 +209,28 @@ Video: *Coming soon...*
 </ol>
 </details>
 <details>
-<summary>Section 10: EVM Assembly & Opcodes | Yul & Huff</summary>
+<summary><a href="#section-10-evm-assembly--opcodes--yul--huff">Section 10: EVM Assembly & Opcodes | Yul & Huff</a></summary>
 <ol>
 <li><a href="#section-10-evm-assembly--opcodes--yul--huff">Section 10: EVM Assembly & Opcodes | Yul & Huff</a></li>
 <li><a href="#section-10-nft">Section 10 NFT</a></li>
 </ol>
 </details>
 <details>
-<summary>Section 11: Formal Verification & Symbolic Execution</summary>
+<summary><a href="#section-11-formal-verification--symbolic-execution">Section 11: Formal Verification & Symbolic Execution</a></summary>
 <ol>
 <li><a href="#section-11-formal-verification--symbolic-execution">Section 11: Formal Verification & Symbolic Execution</a></li>
 <li><a href="#section-11-nft">Section 11 NFT</a></li>
 </ol>
 </details>
 <details>
-<summary>Section 12: DeFi | Stablecoin Audit</summary>
+<summary><a href="#section-12-defi--stablecoin-audit">Section 12: DeFi | Stablecoin Audit</a></summary>
 <ol>
 <li><a href="#section-12-defi--stablecoin-audit">Section 12: DeFi | Stablecoin Audit</a></li>
 <li><a href="#section-12-nft">Section 12 NFT</a></li>
 </ol>
 </details>
 <details>
-<summary>Section 13: Post-deployment</summary>
+<summary><a href="#section-13-post-deployment">Section 13: Post-deployment</a></summary>
 <ol>
 <li><a href="#section-13-post-deployment">Section 13: Post-deployment</a></li>
 <li><a href="#section-13-nft">Section 13 NFT</a></li>
@@ -259,9 +259,12 @@ Video: *Coming soon...*
 
 
 
-<!-- # Table of Contents
+# Table of Contents
 - [Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course](#smart-contract-auditing-assembly-security-and-defi-ultimate-course)
 - [Table of Contents](#table-of-contents)
+  - [Part 1](#part-1)
+  - [Part 2](#part-2)
+- [Table of Contents](#table-of-contents-1)
 - [Introduction, Resources, and Prerequisites](#introduction-resources-and-prerequisites)
   - [Link to video: *Coming soon...*](#link-to-video-coming-soon)
   - [Resources For This Course](#resources-for-this-course)
@@ -273,30 +276,40 @@ Video: *Coming soon...*
 - [Curriculum](#curriculum)
 - [🤗 Section 0: Welcome to the Course](#-section-0-welcome-to-the-course)
   - [Welcome](#welcome)
-  - [Why Security?](#why-security)
+  - [Why Web3 Security?](#why-web3-security)
   - [Why Web3 is so important](#why-web3-is-so-important)
   - [The Final Boss Codebase, you'll be able to audit this at the end of this course](#the-final-boss-codebase-youll-be-able-to-audit-this-at-the-end-of-this-course)
   - [Best Practices for this course](#best-practices-for-this-course)
     - [Section 0 NFT](#section-0-nft)
 - [🐸 Section 1: Review (Don't skip)](#-section-1-review-dont-skip)
+  - [Prereqs \& Environment](#prereqs--environment)
+  - [Solidity \& Smart Contracts](#solidity--smart-contracts)
+  - [Fuzzing \& Stateful Fuzzing (This might be new)](#fuzzing--stateful-fuzzing-this-might-be-new)
+  - [Common EIPs/ERCs](#common-eipsercs)
+  - [Advanced Solidity](#advanced-solidity)
+  - [Advanced Foundry](#advanced-foundry)
     - [Section 1 NFT](#section-1-nft)
 - [❓ Section 2: What is a smart contract audit (Security Review)?](#-section-2-what-is-a-smart-contract-audit-security-review)
   - [What is a security review/smart contract audit?](#what-is-a-security-reviewsmart-contract-audit)
   - [Smart Contract Development Life Cycle](#smart-contract-development-life-cycle)
   - [Top Smart Contract Auditors (Subjective!)](#top-smart-contract-auditors-subjective)
-  - [Tooling](#tooling)
   - [Audit Readiness](#audit-readiness)
+  - [Tooling](#tooling)
   - [Attacker vs. Defender mindset](#attacker-vs-defender-mindset)
   - [Top Attack Vectors](#top-attack-vectors)
     - [Section 2 NFT](#section-2-nft)
-- [⛳️ Section 3: Your first audit | PasswordStore Audit](#️-section-3-your-first-audit--passwordstore-audit)
-  - [Security Review \> Audit](#security-review--audit)
+- [⛳️ Section 3: Your first audit (security review) | PasswordStore Audit](#️-section-3-your-first-audit-security-review--passwordstore-audit)
+  - [The Setup (Scoping): PasswordStore](#the-setup-scoping-passwordstore)
+  - [V1](#v1)
+    - [V2](#v2)
+    - [V3](#v3)
+  - [Security Review (Reconnaissance) \> Audit](#security-review-reconnaissance--audit)
   - ["The Tincho"](#the-tincho)
-  - [Exploits](#exploits)
+  - [Exploits (Vulnerability Identification)](#exploits-vulnerability-identification)
     - [Exploits: Access Controls](#exploits-access-controls)
   - [Writing your first finding](#writing-your-first-finding)
     - [Exploits: Private Data](#exploits-private-data)
-  - [Your first report](#your-first-report)
+  - [Your first report (Reporting)](#your-first-report-reporting)
     - [Section 3 NFT](#section-3-nft)
 - [🐶 Section 4: Manual \& Static Analysis | Puppy Raffle Audit](#-section-4-manual--static-analysis--puppy-raffle-audit)
   - [Tooling: Static Analysis](#tooling-static-analysis)
@@ -311,15 +324,16 @@ Video: *Coming soon...*
     - [Code Maturity](#code-maturity)
     - [Writing the report: Puppy Raffle](#writing-the-report-puppy-raffle)
     - [Section 4 NFT](#section-4-nft)
-- [Section 5: Invariants \& Intro to DeFi | TSwap Audit](#section-5-invariants--intro-to-defi--tswap-audit)
-  - [Scoping \& Reconnaissance: T-Swap](#scoping--reconnaissance-t-swap)
+- [🔄 Section 5: Invariants \& Intro to DeFi | TSwap Audit](#-section-5-invariants--intro-to-defi--tswap-audit)
+  - [The Setup (Scoping): T-Swap](#the-setup-scoping-t-swap)
+  - [Reconnaissance: T-Swap](#reconnaissance-t-swap)
     - [Intro to DeFi/OnChain Finance](#intro-to-defionchain-finance)
   - [Tooling: T-Swap](#tooling-t-swap)
     - [Exploits: Weird ERC20s](#exploits-weird-erc20s)
     - [Exploits: Core Invariant breaking](#exploits-core-invariant-breaking)
     - [Design Patterns: T-Swap](#design-patterns-t-swap)
     - [Section 5 NFT](#section-5-nft)
-- [Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit](#section-6-centralization-proxies-and-oracles--thunder-loan-audit)
+- [🌩️ Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit](#️-section-6-centralization-proxies-and-oracles--thunder-loan-audit)
   - [Scoping \& Reconnaissance: Thunder Loan](#scoping--reconnaissance-thunder-loan)
     - [DeFi: Borrowing \& Lending](#defi-borrowing--lending)
     - [Malicious Scope](#malicious-scope)
@@ -332,7 +346,7 @@ Video: *Coming soon...*
     - [Exploits: Oracle \& Price Manipulation](#exploits-oracle--price-manipulation)
   - [Design Patterns: Thunder Loan](#design-patterns-thunder-loan)
     - [Section 6 NFT](#section-6-nft)
-- [Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit](#section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit)
+- [🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit](#-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit)
   - [Tooling: Boss Bridge](#tooling-boss-bridge)
   - [Scoping \& Reconnaissance: Boss Bridge](#scoping--reconnaissance-boss-bridge)
     - [Exploits: Opcode Support](#exploits-opcode-support)
@@ -343,7 +357,7 @@ Video: *Coming soon...*
     - [Writing the report: Boss Bridge](#writing-the-report-boss-bridge)
   - [Design Patterns: Boss Bridge](#design-patterns-boss-bridge)
     - [Section 7 NFT](#section-7-nft)
-- [Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, \& DAOs | Vault Guardians Audit](#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit)
+- [🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, \& DAOs | Vault Guardians Audit](#️-section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit)
   - [Concepts: Vault Guardians](#concepts-vault-guardians)
     - [Exploits: Governance Attack](#exploits-governance-attack)
     - [Exploits: `block.timestamp` can be bad](#exploits-blocktimestamp-can-be-bad)
@@ -360,6 +374,7 @@ Video: *Coming soon...*
 - [Section 10: EVM Assembly \& Opcodes | Yul \& Huff](#section-10-evm-assembly--opcodes--yul--huff)
     - [Section 10 NFT](#section-10-nft)
 - [Section 11: Formal Verification \& Symbolic Execution](#section-11-formal-verification--symbolic-execution)
+  - [Symbolic Execution / Formal Verification Tools](#symbolic-execution--formal-verification-tools)
     - [Section 11 NFT](#section-11-nft)
 - [Section 12: DeFi | Stablecoin Audit](#section-12-defi--stablecoin-audit)
     - [Section 12 NFT](#section-12-nft)
@@ -374,7 +389,7 @@ Video: *Coming soon...*
   - [Guest Lecturers](#guest-lecturers)
   - [Special thanks](#special-thanks)
   - [More Security Stuff](#more-security-stuff)
-  - [Huge Extra Thank YOU](#huge-extra-thank-you) -->
+  - [Huge Extra Thank YOU](#huge-extra-thank-you)
 
 
 # Introduction, Resources, and Prerequisites
@@ -692,9 +707,12 @@ For this demo, we are ignoring the last 2 phases
     - 3. Reporting 
 
 ## The Setup (Scoping): PasswordStore
+## V1
   - "Hey, here is my link to Etherscan, can I get an audit?"
     - [Coinbase asset listing guide](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
+### V2
   - Client onboarding: Minimal
+### V3
   - `cloc`
 ## Security Review (Reconnaissance) > Audit
   - Look at my T-Shirt
