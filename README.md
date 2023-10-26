@@ -309,6 +309,7 @@ Video: *Coming soon...*
     - [Exploits: Private Data](#exploits-private-data)
     - [More Recon](#more-recon)
   - [Writing your first finding](#writing-your-first-finding)
+  - [Are we done?](#are-we-done)
   - [Your first report (Reporting)](#your-first-report-reporting)
     - [Section 3 NFT](#section-3-nft)
 - [🐶 Section 4: Manual \& Static Analysis | Puppy Raffle Audit](#-section-4-manual--static-analysis--puppy-raffle-audit)
@@ -730,18 +731,12 @@ For this demo, we are ignoring the last 2 phases
 ### Exploits: Private Data
   - Storing a secret (private data is not private)
 ### More Recon
+  - coverage
 ## Writing your first finding
   - Write finding
-  - Write PoC
-  - Mitigation
-## Your first report (Reporting)
-- Writing the Report
-    - Severity Classification
-    - Basic Markdown Report
     - How to write a good finding
-      - Title: Root Cause + Impact 
-      - [Severity Guide](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity)
-      - Finding Layout:
+    - Title: Root Cause + Impact 
+    - Finding Layout:
 ```
 ### [S-#] Title (ROOT CAUSE + IMPACT)
 
@@ -753,6 +748,16 @@ For this demo, we are ignoring the last 2 phases
 
 **Recommended Mitigation:** 
 ```
+  - Write PoC
+  - Mitigation
+  - Using AI
+## Are we done? 
+## Your first report (Reporting)
+- Writing the Report
+    - Severity Classification
+      - [Severity Guide](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity)
+    - Basic Markdown Report
+      - [Template](https://github.com/Cyfrin/audit-report-templating)
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
 
@@ -1198,6 +1203,7 @@ We will learn "the Hans'"
     - HackerOne
 - Incident response
     - Seal 911
+      - [SEAL Drills](https://securityalliance.notion.site/Live-Scenario-Documentation-520e7db48e2143f7bc41b729fb219996)
     - Warroom practice
     - Whitehat vs Blackhat
     - [Responsible Disclosure](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html)
