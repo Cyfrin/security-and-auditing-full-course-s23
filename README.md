@@ -795,6 +795,7 @@ For this demo, we are ignoring the last 2 phases
 *Concepts you'll learn: Static analysis, Reentrancy, Weak RNG, Arithmetic issues, How to write a professional looking report.*
 
 ## Tooling: Static Analysis
+ - [Web3 bugs machine vs human](https://github.com/ZhangZhuoSJTU/Web3Bugs)
  - Static Analysis
    - [Slither](https://github.com/crytic/slither)
    - [Aderyn](https://github.com/Cyfrin/aderyn)
