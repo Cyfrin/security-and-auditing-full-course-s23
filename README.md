@@ -268,6 +268,7 @@ Video: *Coming soon...*
 - [Introduction, Resources, and Prerequisites](#introduction-resources-and-prerequisites)
   - [Link to video: *Coming soon...*](#link-to-video-coming-soon)
   - [Resources For This Course](#resources-for-this-course)
+    - [Exploit Resources](#exploit-resources)
   - [Prerequisites](#prerequisites)
   - [Outcome](#outcome)
   - [Bonus NFTs](#bonus-nfts)
@@ -416,6 +417,10 @@ Join [Cyfrin Updraft](https://web3education.dev/) for the best learning experien
     -   Great place for asking technical questions about Ethereum
 -   [Peeranha](https://peeranha.io/)
     -   Decentralized Stack Exchange!
+
+### Exploit Resources 
+
+- [SC Exploits Minimized](https://github.com/Cyfrin/sc-exploits-minimized)
 
 
 ## Prerequisites
