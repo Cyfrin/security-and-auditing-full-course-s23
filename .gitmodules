@@ -1,0 +1,3 @@
+[submodule "exploits-minimized/lib/forge-std"]
+	path = exploits-minimized/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
