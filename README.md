@@ -316,14 +316,16 @@ Video: *Coming soon...*
 - [🐶 Section 4: Manual \& Static Analysis | Puppy Raffle Audit](#-section-4-manual--static-analysis--puppy-raffle-audit)
   - [Tooling: Static Analysis](#tooling-static-analysis)
   - [Scoping \& Reconnaissance: Puppy Raffle](#scoping--reconnaissance-puppy-raffle)
+    - [Exploits: DoS (Denial of service)](#exploits-dos-denial-of-service)
     - [Exploits: Reentrancy](#exploits-reentrancy)
     - [Exploits: Weak RNG](#exploits-weak-rng)
     - [Exploits: Arithmetic issues](#exploits-arithmetic-issues)
-    - [Exploits: DoS (Denial of service)](#exploits-dos-denial-of-service)
     - [Exploits: Poor ETH Handling](#exploits-poor-eth-handling)
     - [Informational Findings](#informational-findings)
     - [Gas Audits](#gas-audits)
     - [Code Maturity](#code-maturity)
+    - [Static Analysis, follow up](#static-analysis-follow-up)
+  - [What is a Competitive Audit?](#what-is-a-competitive-audit)
     - [Writing the report: Puppy Raffle](#writing-the-report-puppy-raffle)
     - [Section 4 NFT](#section-4-nft)
 - [🔄 Section 5: Invariants \& Intro to DeFi | TSwap Audit](#-section-5-invariants--intro-to-defi--tswap-audit)
@@ -368,15 +370,17 @@ Video: *Coming soon...*
   - [Design Patterns: Vault Guardians](#design-patterns-vault-guardians)
     - [Section 8 NFT](#section-8-nft)
 - [First CodeHawks Competitive Audit](#first-codehawks-competitive-audit)
+- [Part 2](#part-2-1)
 - [Section 9: Wallet \& Key Management](#section-9-wallet--key-management)
   - [Wallet types](#wallet-types)
   - [Wallet Safety](#wallet-safety)
   - [Verify Metamask transactions](#verify-metamask-transactions)
     - [Section 9 NFT](#section-9-nft)
-- [Section 10: EVM Assembly \& Opcodes | Yul \& Huff](#section-10-evm-assembly--opcodes--yul--huff)
+- [Section 10: EVM Assembly, Opcodes, Yul, \& Huff | Horse Store](#section-10-evm-assembly-opcodes-yul--huff--horse-store)
     - [Section 10 NFT](#section-10-nft)
 - [Section 11: Formal Verification \& Symbolic Execution](#section-11-formal-verification--symbolic-execution)
-  - [Symbolic Execution / Formal Verification Tools](#symbolic-execution--formal-verification-tools)
+  - [Symbolic Execution / Formal Verification Tools in Web3](#symbolic-execution--formal-verification-tools-in-web3)
+  - [Issues](#issues)
     - [Section 11 NFT](#section-11-nft)
 - [Section 12: DeFi | Stablecoin Audit](#section-12-defi--stablecoin-audit)
     - [Section 12 NFT](#section-12-nft)
@@ -669,6 +673,11 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢
+
+*Important Note:* We are now going to do audits. Please note, that we will not find all the bugs in each codebase. Each codebase was designed to show you a specific set of bugs, and give you a good understanding of what an audit "feels" like. 
+
+🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢
 
 
 # ⛳️ Section 3: Your first audit (security review) | PasswordStore Audit
@@ -808,29 +817,49 @@ For this demo, we are ignoring the last 2 phases
  - [Solidity Metrics (audit estimation)](https://github.com/Consensys/solidity-metrics)
  - [Solidity Visual Developer](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 ## Scoping & Reconnaissance: Puppy Raffle
+### Exploits: DoS (Denial of service)
+  - Fixes:
+    - Remove unnecessary loops
 ### Exploits: Reentrancy
   - [Case Study: DAO Hack](https://www.gemini.com/cryptopedia/the-dao-hack-makerdao)
-  - [Still plagues us today](https://github.com/pcaversaccio/reentrancy-attacks)
-  - Pattern: CEII ( FREI-PI soon!)
+    - [Still plagues us today](https://github.com/pcaversaccio/reentrancy-attacks)
+  - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/reentrancy)
+    - [Search "reentrancy" in Solodit](https://solodit.xyz/)
+  - Prevention:
+    - CEI/CEII ( FREI-PI soon!)
+    - NonReentrant modifiers
 ### Exploits: Weak RNG
   - [Case Study: Meebits](https://forum.openzeppelin.com/t/understanding-the-meebits-exploit/8281)
+  - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/weak-randomness)
+    - [Search "RNG" in Solodit](https://solodit.xyz/)
+  - Prevention:
+    - [Chainlink VRF](https://docs.chain.link/vrf)
 ### Exploits: Arithmetic issues
-   - Under/Overflow
-   - Others:
+   - Examples:
+     - Under/Overflow
+     - Rounding & Precision
+   - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/arithmetic)
+     - [Search "overflow" in Solodit](https://solodit.xyz/)
+   - Prevention:
+       - Use newer versions of solidity 
        - Multiply before divide
-       - Rounding & Precision
-### Exploits: DoS (Denial of service)
 ### Exploits: Poor ETH Handling
-  - [Stuck ETH without a way to withdraw ](https://gist.github.com/tinchoabbate/99fbf7cbce47eb7c463212fd13f21149)
-  - Misuse of transfer vs send 
   - Case study: [Sushiswap Miso](https://samczsun.com/two-rights-might-make-a-wrong/)
+  - Exercises:
+    - [Stuck ETH without a way to withdraw ](https://gist.github.com/tinchoabbate/99fbf7cbce47eb7c463212fd13f21149)
+    - [Mishandling ETH](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/mishandling-of-eth)
+    - [Search "Stuck ETH" in Solodit](https://solodit.xyz/)
 ### Informational Findings
-   - Stict Solc Versioning
+   - Stict Solc Versioning 
    - Supply Chain Attacks 
    - Magic Numbers 
 ### Gas Audits 
 ### Code Maturity 
    - Code coverage
+### Static Analysis, follow up
+## What is a Competitive Audit? 
+  - [Article]()
+  - [CodeHawks Docs](https://docs.codehawks.com/)
 ### Writing the report: Puppy Raffle
    - [Audit Report Templating](https://github.com/Cyfrin/audit-report-templating/)
    - [Github Report Templating (Cyfrin)](https://github.com/Cyfrin/audit-repo-cloner)
@@ -866,6 +895,16 @@ For this demo, we are ignoring the last 2 phases
 
 *Concepts you'll learn: Stateful fuzzing, Fuzzing, Invariants, FREI-PI/CEII, Advanced DeFi, AMMs, Uniswap, Curve.fi, Constant product formula*
 
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
+
+STOP!
+
+Don't look at the contracts for this one! 
+
+We are going to show you how you can use advanced tools to find even more bugs just by properly understanding invariants and writing more effective test suites. 
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
+
 ## The Setup (Scoping): T-Swap
   - Client onboarding: Extensive
 ## Reconnaissance: T-Swap
@@ -881,6 +920,8 @@ For this demo, we are ignoring the last 2 phases
     - [Echidna](https://github.com/crytic/echidna)
     - [Foundry](https://getfoundry.sh/)
     - [Consensys](https://fuzzing.diligence.tools/login)
+    - Mutation Testing Introduction
+    - Differential Testing Introduction
   - Solodit
   - [Properties](https://github.com/crytic/properties)
 ### Exploits: Weird ERC20s
@@ -905,6 +946,19 @@ For this demo, we are ignoring the last 2 phases
 - *Coming soon*
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
+
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+Congratulations!!
+
+If you've made it this far in the course and you understand what's going on, you have the skills to start getting paid as a security researcher, doing competitive audits, bug bounties, or even get hired!
+
+But if you want to become one of the best in the world and really secure web3, keep going...
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # 🌩️ Section 6: Centralization, Proxies, and Oracles | Thunder Loan Audit 
@@ -948,7 +1002,7 @@ For this demo, we are ignoring the last 2 phases
   - [Flash Loans](https://www.youtube.com/watch?v=Aw7yvGFtOvI)
   - Case Study: [Alpha Homora](https://twitter.com/stellaxyz_/status/1360535699368251394)
   - Case Study: [Creme Finance](https://rekt.news/cream-rekt-2/)
-## Design Patterns: Thunder Loan
+## Design Patterns: Thunder Loan 
   - Pull over push 
 
 📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦
@@ -984,15 +1038,15 @@ For this demo, we are ignoring the last 2 phases
   - Precompiles
     - Case Study: [Polygon](https://www.youtube.com/watch?v=sgHHbWvWj9A)
 ### Exploits: Opcode Support
-    - Case study: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
+  - Case study: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
 ### Exploits: Signature Replay
 ### Exploits: ERC20 Contract Approval
 ### Exploits: Unlimited Minting
 ## Bridge Hacks
-    - Bridge hacks: Ronin, Poly network, Nomad, Wormhole
+  - Bridge hacks: Ronin, Poly network, Nomad, Wormhole
 ### Writing the report: Boss Bridge
 ## Design Patterns: Boss Bridge
-  - Emergency stop 
+  - Emergency stop
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
 
@@ -1080,6 +1134,8 @@ We will learn "the Hans'"
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
+# Part 2
+
 # Section 9: Wallet & Key Management
 
 ## Wallet types
@@ -1125,8 +1181,26 @@ We will learn "the Hans'"
 🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-# Section 10: EVM Assembly & Opcodes | Yul & Huff
+Congratulations!!
+
+If you've made it this far in the course and you understand what's going on, you have the skills to become one of the top security researchers in web! Either as a solo auditor, freelancer, competitive auditor, or even get hired by a top firm!
+
+However... if you want to be on the cutting edge and be able to understand every nook in web3, you've got a little more to go...
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+
+# Section 10: EVM Assembly, Opcodes, Yul, & Huff | Horse Store
+
+<br/>
+<p align="center">
+<a href="https://web3education.dev/" target="_blank">
+<img src="./images/horse-store.png" width="300" alt="Smart Contract Audit & Security Review, Horse Store">
+</a>
+</p>
+<br/>
 
 - [EVM Opcodes](https://evm.codes/)
 - Introduction to Yul
@@ -1155,21 +1229,40 @@ We will learn "the Hans'"
 
 # Section 11: Formal Verification & Symbolic Execution
 
+<br/>
+<p align="center">
+<a href="https://web3education.dev/" target="_blank">
+<img src="./images/math-master.png" width="300" alt="Smart Contract Audit & Security Review, Math Master">
+</a>
+</p>
+<br/>
+
 - [Introduction to FV & SE](https://www.youtube.com/watch?v=izpoxfTSaFs) 
+- [How to quit concrete testing with FV](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
 - Z3 Solution with AI 
 - Solidity SMT Checker 
-## Symbolic Execution / Formal Verification Tools
+- [Case Study: PRBMath](https://twitter.com/zachobront/status/1679540903030013952)
+## Symbolic Execution / Formal Verification Tools in Web3
+- [Halmos](https://github.com/a16z/halmos)
+- [Certora](https://www.certora.com/)
 - [Manticore](https://github.com/trailofbits/manticore)
 - [Mythril](https://github.com/ConsenSys/mythril)
 - [hevm](https://github.com/ethereum/hevm)
-- [Certora](https://www.certora.com/)
+- [KEVM Foundry](https://github.com/runtimeverification/evm-semantics/)
+- [ETH BMC](https://github.com/baolean/EthBMC/tree/forge)
 - [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
+
+## Issues
+- Path Explosion
+- [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem)
 
 🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
 
 🧮 Exercises: 
 
 1. Attempt to use another FV tool
+2. Look into the [Solady LibClone.sol](https://github.com/Vectorized/solady/blob/main/src/utils/LibClone.sol)
+   1. It's a really cool codebase
 
 ### Section 11 NFT
 - *Coming soon*
@@ -1258,6 +1351,8 @@ We will learn "the Hans'"
 
 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed The Course! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 
 
+If you've made it this far... wow. 
+
 ## Where do I go now?
 
 - Competititve Audits
@@ -1304,7 +1399,7 @@ We will learn "the Hans'"
 - [Owen | Guardian Audits](https://twitter.com/0xOwenThurm)
 - [Andy Li | Sigma Prime](https://twitter.com/andyfeili)
 - [JohnnyTime | Gingersec](https://twitter.com/RealJohnnyTime)
-- [Pashov | Independent Auditor](https://twitter.com/pashovkrum)
+- [Pashov | Independent Security Researcher](https://twitter.com/pashovkrum)
 
 ## Special thanks
 
@@ -1322,7 +1417,7 @@ We will learn "the Hans'"
 - [https://github.com/transmissions11/solcurity](https://github.com/transmissions11/solcurity)
 - [https://github.com/OpenCoreCH/smart-contract-auditing-heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
 - [https://secure-contracts.com/](https://secure-contracts.com/)
-- https://github.com/crytic/properties
+- [https://github.com/crytic/properties](https://github.com/crytic/properties)
 
 ## Huge Extra Thank YOU
 
