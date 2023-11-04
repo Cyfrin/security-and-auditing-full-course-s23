@@ -911,6 +911,7 @@ We are going to show you how you can use advanced tools to find even more bugs j
    - Protocol Invariants
    - [FREI-PI/CEI](https://www.nascent.xyz/idea/youre-writing-require-statements-wrong)
 ### Intro to DeFi/OnChain Finance
+   - [DeFi Llama](https://defillama.com/)
    - [AMMs](https://chain.link/education-hub/what-is-an-automated-market-maker-amm)
    - [UniswapV1](https://uniswap.org/)
    - [Curve](https://curve.fi/)
@@ -922,7 +923,7 @@ We are going to show you how you can use advanced tools to find even more bugs j
     - [Consensys](https://fuzzing.diligence.tools/login)
     - Mutation Testing Introduction
     - Differential Testing Introduction
-  - Solodit
+  - [Solodit](https://solodit.xyz/)
   - [Properties](https://github.com/crytic/properties)
 ### Exploits: Weird ERC20s
    - [Token integration checklist](https://secure-contracts.com/development-guidelines/token_integration.html)
