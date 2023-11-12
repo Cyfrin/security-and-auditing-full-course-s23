@@ -1123,11 +1123,14 @@ But if you want to become one of the best in the world and really secure web3, k
    - Proxies
      - [UUPS & Transparent](https://docs.openzeppelin.com/contracts/4.x/api/proxy)
      - [Multi-facet Proxy (Diamond)](https://eips.ethereum.org/EIPS/eip-2535)
+     - [Foundry Proxies & Upgrades](https://github.com/Cyfrin/foundry-upgrades-f23)
+     - [What are upgradeable smart contracts?](https://www.youtube.com/watch?v=bdXJmWajZRY)
    - Centralization
 ### Malicious Scope
    - Don't "yes-man" every audit
 ## Tooling: Thunder Loan
   - [Upgradehub](https://upgradehub.xyz/)
+  - [__init vs __init_unchained](https://forum.openzeppelin.com/t/difference-between-init-and-init-unchained/25255)
 ### Exploits: Failure to initialize 
   - Case Study: [I accidentally killed it](https://github.com/openethereum/parity-ethereum/issues/6995)
 ### Exploits: Storage collision
@@ -1172,6 +1175,7 @@ But if you want to become one of the best in the world and really secure web3, k
   - AI
   - Tenderly
   - [evm  diff](https://www.evmdiff.com/)
+  - We will learn "the Hans'"
 ## Scoping & Reconnaissance: Boss Bridge
   - Precompiles
     - Case Study: [Polygon](https://www.youtube.com/watch?v=sgHHbWvWj9A)
@@ -1206,8 +1210,6 @@ But if you want to become one of the best in the world and really secure web3, k
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # 🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit
-
-We will learn "the Hans'"
 
 <br/>
 <p align="center">
