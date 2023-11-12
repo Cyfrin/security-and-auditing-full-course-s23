@@ -1309,6 +1309,8 @@ However... if you want to be on the cutting edge and be able to understand every
 
 # Part 2
 
+*Coming soon...*
+
 # Section 9: Wallet & Key Management
 
 ## Wallet types
@@ -1571,8 +1573,11 @@ If you've made it this far... wow.
 - [carlitox477](https://twitter.com/carlitox477)
 - [0Kage](https://twitter.com/hansfriese)
 - [giovannidisiena.eth](https://twitter.com/giovannidisiena)
+- [Dacian](https://twitter.com/DevDacian)
 - [Alex Roan](https://twitter.com/alexroan)  
 - [Peter Kacherginsky](https://twitter.com/_iphelix) 
+- [Karma Coma](https://twitter.com/0xkarmacoma)
+- [Zach Obront](https://twitter.com/zachobront)
 
 ## More Security Stuff
 
