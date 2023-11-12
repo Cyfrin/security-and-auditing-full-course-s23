@@ -1176,6 +1176,7 @@ But if you want to become one of the best in the world and really secure web3, k
   - Tenderly
   - [evm  diff](https://www.evmdiff.com/)
   - We will learn "the Hans'"
+    - [Checklist](https://github.com/Cyfrin/audit-checklist/tree/main)
 ## Scoping & Reconnaissance: Boss Bridge
   - Precompiles
     - Case Study: [Polygon](https://www.youtube.com/watch?v=sgHHbWvWj9A)
