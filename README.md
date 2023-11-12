@@ -6,7 +6,7 @@ _Made with love by [Cyfrin](https://www.cyfrin.io/) & [The Red Guild](https://th
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/course-hero.jpg" width="500" alt="Smart Contract Security, Auditing, Assembly, and DeFi Ultimate Course">
 </a>
 </p>
@@ -116,13 +116,12 @@ Video: *Coming soon...*
     - [Writing the report: Boss Bridge](#writing-the-report-boss-bridge)
   - [Design Patterns: Boss Bridge](#design-patterns-boss-bridge)
     - [Section 7 NFT](#section-7-nft)
+- [Section 7.5: MEV \& Governance](#section-75-mev--governance)
+  - [Introduction to MEV](#introduction-to-mev)
+    - [Exploits: Governance Attack](#exploits-governance-attack)
 - [🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, \& DAOs | Vault Guardians Audit](#️-section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit)
   - [Concepts: Vault Guardians](#concepts-vault-guardians)
-    - [Exploits: Governance Attack](#exploits-governance-attack)
-    - [Exploits: `block.timestamp` can be bad](#exploits-blocktimestamp-can-be-bad)
-  - [Introduction to MEV](#introduction-to-mev)
-    - [Exploits: Slippage Protection](#exploits-slippage-protection)
-  - [Design Patterns: Vault Guardians](#design-patterns-vault-guardians)
+  - [Good luck :)](#good-luck-)
     - [Section 8 NFT](#section-8-nft)
 - [First CodeHawks Competitive Audit](#first-codehawks-competitive-audit)
 - [Part 2](#part-2-1)
@@ -543,7 +542,7 @@ Video: *Coming soon...*
 
 ## Resources For This Course
 
-Join [Cyfrin Updraft](https://web3education.dev/) for the best learning experience!
+Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experience!
 
 - AI Frens
   - [ChatGPT](https://chat.openai.com/)
@@ -650,7 +649,7 @@ IF YOU DECIDE TO MINT THE REAL NFT:
 - [Vault Guardians](https://github.com/Cyfrin/8-vault-guardians-audit)
 
 ## Best Practices for this course
-  - Register for [Cyfrin Updraft](https://web3education.dev/)
+  - Register for [Cyfrin Updraft](https://updraft.cyfrin.io/)
     - USE THIS SITE!!! It's specfically made to make learning easier
   - **Follow the repository:** While going through the course be 100% certain to follow along with the github repository. If you run into in an issue check the chronological-updates in the repo.
   - **Be Active in the community:** Ask questions and engage with other developers going through the course in the discussions tab, be sure to go and say hello or gm! This space is different from the other industries, you don't have to be secretive; communicate, network and learn with others :)
@@ -786,7 +785,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/top-10-attack-vectors.png" width="500" alt="Top DeFi & Web3 Attack Vectors from the first half of 2023">
 </a>
 </p>
@@ -797,7 +796,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 📝 Exercise: Sign up for one security/web3 newsletter!
 
-* [Cyfrin Updraft](https://web3education.dev/)
+* [Cyfrin Updraft](https://updraft.cyfrin.io/)
 * [Blockchain Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Referral link)
 * [Solodit (not a newsletter, but has constant updates of new hacks)](https://solodit.xyz/)
 * [rekt](https://rekt.news/)
@@ -821,7 +820,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/password-store-logo.png" width="300" alt="Smart Contract Audit & Security Review, PasswordStore">
 </a>
 </p>
@@ -935,7 +934,7 @@ For this demo, we are ignoring the last 2 phases
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/puppy-raffle.svg" width="300" alt="Smart Contract Audit & Security Review, Puppy Raffle">
 </a>
 </p>
@@ -1022,7 +1021,7 @@ For this demo, we are ignoring the last 2 phases
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/t-swap-youtube-dimensions.png" width="300" alt="Smart Contract Audit & Security Review, T-Swap">
 </a>
 </p>
@@ -1103,7 +1102,7 @@ But if you want to become one of the best in the world and really secure web3, k
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/thunder-loan.svg" width="300" alt="Smart Contract Audit & Security Review, Thunder Loan">
 </a>
 </p>
@@ -1163,7 +1162,7 @@ But if you want to become one of the best in the world and really secure web3, k
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/boss-bridge.png" width="300" alt="Smart Contract Audit & Security Review, Boss Bridge">
 </a>
 </p>
@@ -1181,6 +1180,7 @@ But if you want to become one of the best in the world and really secure web3, k
   - Precompiles
     - Case Study: [Polygon](https://www.youtube.com/watch?v=sgHHbWvWj9A)
   - [Public private key demo](https://github.com/anders94/public-private-key-demo)
+  - [Encoding & Decoding Refresher]()
 ### Exploits: Opcode Support
   - Case study: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
 ### Exploits: Signature Replay
@@ -1211,30 +1211,19 @@ But if you want to become one of the best in the world and really secure web3, k
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-# 🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit
+# Section 7.5: MEV & Governance
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
-<img src="./images/vault-guardians.png" width="300" alt="Smart Contract Audit & Security Review, Vault Guardians">
+<a href="https://updraft.cyfrin.io/" target="_blank">
+<img src="./images/mev-thumbnail.png" width="300" alt="Smart Contract Audit & Security Review, MEV">
 </a>
 </p>
 <br/>
 
-💻 Security Review Code: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
-
-## Concepts: Vault Guardians
-   - [Tokenized Vaults (ERC-4626)](https://eips.ethereum.org/EIPS/eip-4626)
-   - [Yearn Finance](https://yearn.fi/)
-   - [Permit2](https://github.com/Uniswap/permit2)
-### Exploits: Governance Attack
-  - Unlimited Minting
-  - Flash Loan Voting
-  - Case Study: [Beanstalk](https://rekt.news/beanstalk-rekt/)
-  - Metamorphic upgrades
-      - Case Study: TORN Governance 
-### Exploits: `block.timestamp` can be bad
 ## Introduction to MEV
+  - [MEV Explained](https://www.youtube.com/watch?v=92bdU5uvsD8)
+  - [MEV Explained continued](https://www.youtube.com/watch?v=MlbtSAntr7c) 
   - [Toxic MEV](https://collective.flashbots.net/t/on-the-toxicity-classification-of-mev-transactions/521)
       - Frontrunning
       - Sandwich Attacks
@@ -1245,10 +1234,42 @@ But if you want to become one of the best in the world and really secure web3, k
       - [Flashbots Protect](https://docs.flashbots.net/flashbots-protect/overview)
       - [MEVBlocker](https://mevblocker.io/)
       - [Securerpc](https://securerpc.com/)
-### Exploits: Slippage Protection
-## Design Patterns: Vault Guardians
-  - call over transfer 
+  - MEV in our past security reviews:
+    - Puppy:
+      - Someone can front-run `selectWinner` to call a refund
+    - T-Swap:
+      - Deadline protection means people can "sandwhich" attack you
+    - Thunder Loan:
+      - Users can front run flash loans to make the fees higher or lower
+    - Boss Bridge:
+      - A signed transaction could be front run so that an attacker sends tokens from an L2 before the signer can
+  - Slippage Protection
+### Exploits: Governance Attack
+  - Unlimited Minting
+  - Flash Loan Voting
+  - Case Study: [Beanstalk](https://rekt.news/beanstalk-rekt/)
+  - Metamorphic upgrades
+      - Case Study: TORN Governance 
 
+# 🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit
+
+<br/>
+<p align="center">
+<a href="https://updraft.cyfrin.io/" target="_blank">
+<img src="./images/vault-guardians.png" width="300" alt="Smart Contract Audit & Security Review, Vault Guardians">
+</a>
+</p>
+<br/>
+
+*This security review is optional. It's a LOT of code! But if you choose to do it, you'll get a better idea of what a larger codebase feels like. Being comfortable coming up to a codebase and saying "I'll eventually understand this codebase, but right now I don't" is important!*
+
+💻 Security Review Code: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
+
+## Concepts: Vault Guardians
+   - [Tokenized Vaults (ERC-4626)](https://eips.ethereum.org/EIPS/eip-4626)
+   - [Yearn Finance](https://yearn.fi/)
+   - [Permit2](https://github.com/Uniswap/permit2)
+## Good luck :) 
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
 
@@ -1275,6 +1296,16 @@ But if you want to become one of the best in the world and really secure web3, k
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+Congratulations!!
+
+If you've made it this far in the course and you understand what's going on, you have the skills to become one of the top security researchers in web3! Either as a solo auditor, freelancer, competitive auditor, or even get hired by a top firm!
+
+However... if you want to be on the cutting edge and be able to understand every nook in web3, you've got a little more to go...
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
 # Part 2
 
@@ -1316,6 +1347,7 @@ But if you want to become one of the best in the world and really secure web3, k
 2. Review classic key leeks
    1. `.env` leak with private keys
    2. Research one private key leak from [rekt.news](https://rekt.news/leaderboard/)
+3. Check out [keepmesafe](https://github.com/Cyfrin/keepmesafe)
 
 ### Section 9 NFT
 - *Coming soon*
@@ -1323,22 +1355,12 @@ But if you want to become one of the best in the world and really secure web3, k
 🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
-Congratulations!!
-
-If you've made it this far in the course and you understand what's going on, you have the skills to become one of the top security researchers in web! Either as a solo auditor, freelancer, competitive auditor, or even get hired by a top firm!
-
-However... if you want to be on the cutting edge and be able to understand every nook in web3, you've got a little more to go...
-
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
 
 # Section 10: EVM Assembly, Opcodes, Yul, & Huff | Horse Store
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/horse-store.png" width="300" alt="Smart Contract Audit & Security Review, Horse Store">
 </a>
 </p>
@@ -1373,7 +1395,7 @@ However... if you want to be on the cutting edge and be able to understand every
 
 <br/>
 <p align="center">
-<a href="https://web3education.dev/" target="_blank">
+<a href="https://updraft.cyfrin.io/" target="_blank">
 <img src="./images/math-master.png" width="300" alt="Smart Contract Audit & Security Review, Math Master">
 </a>
 </p>
