@@ -16,4 +16,5 @@ Later:
 Video TODOs:
 - Revamp the intro to be more hype
 - Add in prerequisite tools, like foundry, vscode, working with windows, etc
+  - ESPECIALLY using the GitHub, Updraft, Discussions, AI, etc
 - Add in prerequisite skills
