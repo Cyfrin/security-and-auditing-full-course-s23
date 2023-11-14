@@ -38,8 +38,8 @@ Video: *Coming soon...*
   - [Best Practices for this course](#best-practices-for-this-course)
     - [Section 0 NFT](#section-0-nft)
 - [🐸 Section 1: Review (Don't skip)](#-section-1-review-dont-skip)
-  - [Prereqs \& Environment](#prereqs--environment)
-  - [Solidity \& Smart Contracts](#solidity--smart-contracts)
+  - [Tooling \& Environment Prerequistes](#tooling--environment-prerequistes)
+  - [Solidity \& Smart Contract Prerequisites](#solidity--smart-contract-prerequisites)
   - [Fuzzing \& Stateful Fuzzing (This might be new)](#fuzzing--stateful-fuzzing-this-might-be-new)
   - [Common EIPs/ERCs](#common-eipsercs)
   - [Advanced Solidity](#advanced-solidity)
@@ -143,6 +143,7 @@ Video: *Coming soon...*
 - [Congratulations](#congratulations)
   - [Where do I go now?](#where-do-i-go-now)
   - [Learning More](#learning-more)
+  - [Disclosures](#disclosures)
 - [Thank you](#thank-you)
   - [Sponsors](#sponsors)
   - [Lead Lecturers / Code Builders](#lead-lecturers--code-builders)
@@ -673,7 +674,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # 🐸 Section 1: Review (Don't skip)
-## Prereqs & Environment
+## Tooling & Environment Prerequistes
   - VSCode
   - VSCodium
   - [Foundry](https://book.getfoundry.sh/)
@@ -688,13 +689,15 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
     - Ethereum Stack Exchange
     - Peeranha
     - Github Discussions
-## Solidity & Smart Contracts
+## Solidity & Smart Contract Prerequisites
   - [Remix](https://remix.ethereum.org/)
   - Basic smart contracts
     - `forge init`
 ## Fuzzing & Stateful Fuzzing (This might be new)
   - Fuzz tests
-  - Stateful fuzzing / Invariant tests
+  - Stateless Fuzzing
+  - Stateful fuzzing 
+  - Invariants
     - [Video](https://www.youtube.com/watch?v=juyY-CTolac)
 ## Common EIPs/ERCs
   - Github Copilot
@@ -755,6 +758,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - Deploy
   - Monitor & Maintain
 ## [Top Smart Contract Auditors (Subjective!)](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
+  - Use this list to reference how top quality security teams do reviews, post reports, do research, etc
 ## Audit Readiness
   - [Simple Security Checklist](https://github.com/nascentxyz/simple-security-toolkit)
       - Test suite with code coverage
@@ -994,7 +998,6 @@ For this demo, we are ignoring the last 2 phases
    - Code coverage
 ### Static Analysis, follow up
 ## What is a Competitive Audit? 
-  - [Article]()
   - [CodeHawks Docs](https://docs.codehawks.com/)
 ### Writing the report: Puppy Raffle
    - [Audit Report Templating](https://github.com/Cyfrin/audit-report-templating/)
@@ -1414,7 +1417,7 @@ However... if you want to be on the cutting edge and be able to understand every
 - [Manticore](https://github.com/trailofbits/manticore)
 - [Mythril](https://github.com/ConsenSys/mythril)
 - [hevm](https://github.com/ethereum/hevm)
-- [KEVM Foundry](https://github.com/runtimeverification/evm-semantics/)
+- [Kontrol](https://docs.runtimeverification.com/kontrol/overview/readme)
 - [ETH BMC](https://github.com/baolean/EthBMC/tree/forge)
 - [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
 
@@ -1543,6 +1546,10 @@ If you've made it this far... wow.
 - [JohnnyTime](https://www.youtube.com/@JohnnyTime)
 - [The Red Guild YouTube](https://www.youtube.com/channel/UC7bn5DeABT6zQz-bn6GS1Yw)
 - [Cyfrin YouTube](https://www.youtube.com/@CyfrinAudits)
+
+## Disclosures
+
+The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. They are an advisor to the Peeranha project, and run various blockchain nodes like Chainlink & Ethereum. Additionally, the are responsible for the creation of the Aderyn and Solodit tools.  
 
 # Thank you
 
