@@ -25,6 +25,7 @@ Video: *Coming soon...*
   - [Resources For This Course](#resources-for-this-course)
     - [Exploit Resources](#exploit-resources)
   - [Prerequisites](#prerequisites)
+    - [Prerequisite tools](#prerequisite-tools)
   - [Outcome](#outcome)
   - [Bonus NFTs](#bonus-nfts)
     - [Important Notes for Arbitrum](#important-notes-for-arbitrum)
@@ -575,6 +576,13 @@ Here are some resources to get you up to speed with the prerequisites:
 
 * [Full Foundry Course](https://www.youtube.com/watch?v=umepbfKp5rI): This will give you every single prerequisite
 * [Speed Run Ethereum](https://speedrunethereum.com/): This will give you most of what you need. But you’ll need a little extra time on invariant tests, using foundry, and DeFi/OnChain Finance. 
+
+### Prerequisite tools
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [foundry](https://getfoundry.sh/)
+- [VSCode other other text editor](https://code.visualstudio.com/)
+- [Understand Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+- [ChatGPT or other AI assistant](https://chat.openai.com/chat)
 
 ## Outcome
 * Have the foundational skills to become a professional smart contract auditor
@@ -1570,10 +1578,23 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 ## Guest Lecturers
 
 - [Josselin Feist | Trail of Bits](https://twitter.com/Montyly)
+  - [Trail of Bits](https://www.trailofbits.com/)
+  - Fuzzing & Formal Verification
 - [Owen | Guardian Audits](https://twitter.com/0xOwenThurm)
+  - [Guardian Audits](https://guardianaudits.com/)
+  - Denial Of Service
 - [Andy Li | Sigma Prime](https://twitter.com/andyfeili)
+  - [Sigma Prime](https://sigmaprime.io/)
+  - Weak Randomness
 - [JohnnyTime | Gingersec](https://twitter.com/RealJohnnyTime)
+  - [Gingersec](https://gingersec.xyz/)
+  - Governance Attack (Specific)
 - [Pashov | Independent Security Researcher](https://twitter.com/pashovkrum)
+  - MEV
+- [Juliette | Cyfrin](https://twitter.com/_juliettech)
+  - Governance Attack (General)
+- [Alex Roan | Cyfrin](https://twitter.com/alexroan)
+  - Fuzzing & Smart Engineering
 
 ## Special thanks
 
@@ -1586,6 +1607,7 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 - [Peter Kacherginsky](https://twitter.com/_iphelix) 
 - [Karma Coma](https://twitter.com/0xkarmacoma)
 - [Zach Obront](https://twitter.com/zachobront)
+- [Pinata (for hosting my cringe)](https://app.pinata.cloud)
 
 ## More Security Stuff
 

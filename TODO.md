@@ -18,3 +18,4 @@ Video TODOs:
 - Add in prerequisite tools, like foundry, vscode, working with windows, etc
   - ESPECIALLY using the GitHub, Updraft, Discussions, AI, etc
 - Add in prerequisite skills
+- Watch these and see if we need more from them: https://x.com/0xkarmacoma/status/1725651073950761420?s=20
