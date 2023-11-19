@@ -1,3 +1,9 @@
+# Improvement notes
+
+Some improvement notes on how to teach security and auditing in future curriculums. 
+
+
+## Audit / Bug Walkthroughs
 1. Potentially try a new setup for doing audit walkthroughs.
    1. Option A: Intro Bugs -> find in walkthrough 
       1. First, go through a list of bugs
