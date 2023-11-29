@@ -198,6 +198,8 @@ Video: *Coming soon...*
 
 ## Part 2
 
+*Coming soon...*
+
 <details>
 <summary><a href="#section-9-wallet--key-management">Section 9: Wallet & Key Management</a></summary>
 <ol>
