@@ -402,7 +402,8 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - This will be important for when things get hard
   - Is it money? Save web3? Become someone? Write down as many reasons as possible. 
 ### Section 0 NFT
-- [Welcome!](https://arbiscan.io/address/0xf923431da74ecc873c4d641fbdfa2564baafca9f#code)
+- [Welcome! (Arb)](https://arbiscan.io/address/0xf923431da74ecc873c4d641fbdfa2564baafca9f#code)
+- [Welcome! (Sepolia)](https://sepolia.etherscan.io/address/0x39338138414df90ec67dc2ee046ab78bcd4f56d9)
 
 🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -460,7 +461,8 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 2. Go for a walk, and buckle up
 
 ### Section 1 NFT
-- [Refresher Fresh NFT](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
+- [Refresher Fresh NFT (Arb)](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
+- [Refresher Fresh NFT (Sepolia)](https://sepolia.etherscan.io/address/0x76d2403b80591d5f6af2b468bc14205fa5452ac0)
 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -543,7 +545,8 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 * [Officer CIA](https://officercia.mirror.xyz/)
 
 ### Section 2 NFT
-- [Hardest one of the whole course](https://arbiscan.io/address/0xeab9c7ac697408fd1581494577c7c0716c3b75e6)
+- [Hardest one of the whole course (Arb)](https://arbiscan.io/address/0xeab9c7ac697408fd1581494577c7c0716c3b75e6)
+- [Hardest one of the whole course (Sepolia)](https://sepolia.etherscan.io/address/0x34d130b174f4a30a846fed7c02fcf53a19a4c2b6)
 
 📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -654,7 +657,8 @@ For this demo, we are ignoring the last 2 phases
 2. [Tweet about your first audit!](https://twitter.com/intent/tweet?text=Just%20completed%20my%20first%20audit%20from%20%23web3education%20and%20signed%20up%20for%20@codehawks%21)
 
 ### Section 3 NFT
-- [Storage refresher!](https://arbiscan.io/address/0x89edc4c74810bedbd53d7da677eb420dc0154b0b#code)
+- [Storage refresher! (Arb)](https://arbiscan.io/address/0x89edc4c74810bedbd53d7da677eb420dc0154b0b#code)
+- [Storage refresher! (Sepolia)](https://sepolia.etherscan.io/address/0xa2626be06c11211a44fb6ca324a67ebdbcd30b70)
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -749,7 +753,8 @@ For this demo, we are ignoring the last 2 phases
 5. Do a [CodeHawks First Flight](https://www.codehawks.com/first-flights)
 
 ### Section 4 NFT
-- [A combination hack](https://arbiscan.io/address/0xef72ba6575b86beaa9b9e4a78bca4a58f3cce276)
+- [A combination hack (Arb)](https://arbiscan.io/address/0xef72ba6575b86beaa9b9e4a78bca4a58f3cce276)
+- [A combination hack (Sepolia)](https://sepolia.etherscan.io/address/0xf988ebf9d801f4d3595592490d7ff029e438deca)
 
 🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -817,7 +822,8 @@ We are going to show you how you can use advanced tools to find even more bugs j
 2. Write a tweet thread about an [interesting finding from Solodit](https://solodit.xyz/)
 
 ### Section 5 NFT
-- [A legit DeFi On-Chain Hack](https://arbiscan.io/address/0xbdaab68a462db80fb0052947bdadba7a87fcd0fb#code)
+- [A legit DeFi On-Chain Hack (Arb)](https://arbiscan.io/address/0xbdaab68a462db80fb0052947bdadba7a87fcd0fb#code)
+- [A legit DeFi On-Chain Hack (Sepolia)](https://sepolia.etherscan.io/address/0xdeb8d8efef7049e280af1d5fe3a380f3be93b648)
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
 
@@ -889,7 +895,8 @@ But if you want to become one of the best in the world and really secure web3, k
 2. Tweet about how YOU feel about upgradeable smart contracts 
 
 ### Section 6 NFT
-- [It's a bit scary how powerful you've become](https://arbiscan.io/address/0x956c6b0894923ba448f8bc7bb9706a2b8f60277d#code)
+- [It's a bit scary how powerful you've become (Arb)](https://arbiscan.io/address/0x956c6b0894923ba448f8bc7bb9706a2b8f60277d#code)
+- [It's a bit scary how powerful you've become (Sepolia)](https://sepolia.etherscan.io/address/0xcf4fba490197452bd414e16d563623253efb57d3)
 
 📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -943,7 +950,8 @@ But if you want to become one of the best in the world and really secure web3, k
     4. [Nomad Bridge Hack](https://medium.com/immunefi/hack-analysis-nomad-bridge-august-2022-5aa63d53814a)
 
 ### Section 7 NFT
-- [Tell Vitalik Hi](https://arbiscan.io/address/0xB855afC44095225105329a7416D55d0A780fc39d#code)
+- [Tell Vitalik Hi (Arb)](https://arbiscan.io/address/0xB855afC44095225105329a7416D55d0A780fc39d#code)
+- [Tell Vitalik Hi (Sepolia)](https://sepolia.etherscan.io/address/0x33ee14fb8816c92fe401165330bbe29706942183)
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
@@ -1018,7 +1026,8 @@ But if you want to become one of the best in the world and really secure web3, k
 4. Read [these tips](https://github.com/0xJuancito/multichain-auditor) for auditing multi-chain protocols 
 
 ### Section 8 NFT
-- [GO OUT THERE AND GET IT!!!](https://arbiscan.io/address/0xc0b55591de55258021985aed8dd2af40fbd659c7#code)
+- [GO OUT THERE AND GET IT!!! (Arb)](https://arbiscan.io/address/0xc0b55591de55258021985aed8dd2af40fbd659c7#code)
+- [GO OUT THERE AND GET IT!!! (Sepolia)](https://sepolia.etherscan.io/address/0xdf7cdff0c5e85c974d6377244d9a0ceffa2b7a86#code)
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
 
