@@ -1229,6 +1229,9 @@ However... if you want to be on the cutting edge and be able to understand every
     - [Phalcon ](https://phalcon.xyz/)
     - [OpenChain](https://openchain.xyz/)
     - [Dune analytics](https://dune.com/browse/dashboards)
+  - Up and coming
+    - [GhostLogs](https://ghostlogs.xyz/)
+    - [shadow.xyz](https://www.shadow.xyz/)
 - What do you do if you find a live issue?
     - Check for a bug bounty 
         - If yes -> Submit, and you’re done
@@ -1346,6 +1349,7 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 
 ## More Security Stuff
 
+- [Self accounts "audit"](https://securityalliance.notion.site/Telegram-Security-Self-Audit-863507aa2ea84360be8e6f30c61e6b0d)
 - [https://scsfg.io/](https://scsfg.io/)
 - [https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap)
 - [https://github.com/transmissions11/solcurity](https://github.com/transmissions11/solcurity)
