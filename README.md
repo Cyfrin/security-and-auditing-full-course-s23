@@ -16,7 +16,7 @@ Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Se
 
 # Useful Links
 
-Join our vibrant community on various platforms and stay updated with the latest from Cyfrin Updraft:
+Join our community on various platforms and stay updated with the latest from Cyfrin Updraft:
 
 - [**Official Website**](https://updraft.cyfrin.io/): Explore more about Cyfrin Updraft.
 - [**Twitter**](https://twitter.com/CyfrinUpdraft): Follow us for the latest news and community highlights.
