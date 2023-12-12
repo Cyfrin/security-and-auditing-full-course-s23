@@ -13,7 +13,7 @@
 <h1 align="center"> Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
  </h1>
 
-<p align="center"><strong> Start your career as a smart contract auditor! Learn the best practices for writing secure and optimized smart contracts. 
+<p align="center"><strong> Level up your career as a smart contract auditor writing secure and optimized smart contracts. 
 </strong></p>
 
 <div align="center">
