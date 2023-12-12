@@ -1,8 +1,52 @@
-# Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
+[contributors-shield]: https://img.shields.io/github/contributors/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
+[contributors-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
+[forks-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/network/members
+[stars-shield]: https://img.shields.io/github/stars/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
+[stars-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
+[issues-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/issues
+[license-shield]: https://img.shields.io/github/license/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
+[license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
-_Made with love by [Cyfrin](https://www.cyfrin.io/) & [The Red Guild](https://theredguild.org/)_
+<h1 align="center"> Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
+ </h1>
 
-*Note: If you're familiar with Patrick's previous courses, we have renamed "Lessons" to "Sections"*
+<p align="center"><strong>The ultimate learning platform for web3 developers
+</strong></p>
+
+<div align="center">
+
+[![Stargazers][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<p align="center">
+    <br />
+    <a href="https://cyfrin.io/">
+        <img src=".github/images/poweredbycyfrinblue.png" width="145" alt=""/></a>
+    <br />
+</p>
+
+And [The Red Guild](https://theredguild.org/)
+
+</div>
+
+Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course by Cyfrin Updraft!
+
+This repository houses the written content of our courses, organized to facilitate easy access and contribution from our community.
+Please refer to this for an in-depth explanation of the content:
+
+-   [Website](https://createweb3dapp.alchemy.com) - Join Cyfrin Updraft and enjoy 50+ hours of smart contract development courses
+-   [Twitter](https://github.com/alchemyplatform/create-web3-dapp) - Stay updated with the latest course releases
+-   [LinkedIn](https://createweb3dapp.alchemy.com/#templates) - Add Updraft to your learning experiences
+-   [Discord](https://createweb3dapp.alchemy.com/#components) - Join a community of 3000+ developers and auditors
+-   [Newsletter](https://github.com/alchemyplatform/create-web3-dapp-examples) - Weekly security research tips and resources to level up your career
+-   [Codehawks](https://github.com/alchemyplatform/create-web3-dapp-examples) - Smart contracts auditing competitions to help securing web3
+
+</br>
 
 <br/>
 <p align="center">
@@ -12,12 +56,9 @@ _Made with love by [Cyfrin](https://www.cyfrin.io/) & [The Red Guild](https://th
 </p>
 <br/>
 
-Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course!
-
-Video: *Coming soon...*
-
 # Table of Contents
 
+_Note: If you're familiar with Patrick's previous courses, we have renamed "Lessons" to "Sections"_
 ## Part 1
 <details>
 <summary>Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course</summary>
