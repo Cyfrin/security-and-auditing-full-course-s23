@@ -34,7 +34,7 @@ And [The Red Guild](https://theredguild.org/)
 
 </div>
 
-Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course by Cyfrin Updraft!
+Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course by Cyfrin Updraft and The Red Guild!
 
 This repository houses the written content of our courses, organized to facilitate easy access and contribution from our community.
 Please refer to this for an in-depth explanation of the content:
