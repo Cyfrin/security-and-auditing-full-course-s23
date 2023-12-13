@@ -26,7 +26,7 @@
 <p align="center">
     <br />
     <a href="https://cyfrin.io/">
-        <img src=".github/images/poweredbycyfrinblue.png" width="145" alt=""/></a>
+        <img src=".github/images/poweredbycyfrinbluehigher.png" width="145" alt=""/></a>
     <br />
 </p>
 
