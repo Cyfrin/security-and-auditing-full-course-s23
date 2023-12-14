@@ -489,6 +489,8 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - Fallback & Receive
   - Encoding, Call, & Staticcall
     - Clip from the foundry full course
+    - [Encoding.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/Encoding.sol)
+    - [CallAnything.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
   - Delegatecall & Proxies 
     - Clip from foundry full course
   - tx.origin vs msg.sender 
