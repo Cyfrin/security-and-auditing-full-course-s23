@@ -535,7 +535,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - Plan & Design 
   - Develop & Test
   - Smart Contract Audit & Post Deploy Planning
-      - [Is this just one step?](https://owasp.org/www-project-developer-guide/draft/04-foundations/02-secure-development)
+      - [Is this just one step?](https://aws.amazon.com/what-is/sdlc/)
   - Deploy
   - Monitor & Maintain
 ## [Top Smart Contract Auditors (Subjective!)](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
