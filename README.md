@@ -1332,7 +1332,7 @@ If you've made it this far... wow.
 ## Learning More
 - [Patrick Collins YouTube](https://www.youtube.com/c/patrickcollins)
 - [Solodit](https://solodit.xyz/)
-- [Block Threat Intelligence](https://blockthreat.substack.com/)
+- [Block Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Referral Link)
 - [Consensys Diligence Newsletter](https://consensys.io/diligence/newsletter/)
 - [Owen Thurm YouTube](https://www.youtube.com/@0xOwenThurm)
 - [JohnnyTime](https://www.youtube.com/@JohnnyTime)
