@@ -1210,6 +1210,13 @@ However... if you want to be on the cutting edge and be able to understand every
 - [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
 - [FV specifically for ERC20s](https://ercx.runtimeverification.com/)
 
+## Certora 
+- Rules 
+- Harnessing 
+- Methods Block 
+- Config Files / Scene
+- Linking
+
 ## Issues
 - Path Explosion
 - [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem)
