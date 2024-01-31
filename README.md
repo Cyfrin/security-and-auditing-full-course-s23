@@ -1098,25 +1098,39 @@ However... if you want to be on the cutting edge and be able to understand every
 
 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-# Part 2
+# Part 2 Wallet Guidance & Post-Deployment
 
 *Coming soon...*
 
 # Section 9: Wallet & Key Management
 
+*Q: Why are we giving guidelines and not strict recommendations?*
+A: The wallet industry is constantly changing, and takes a LOT of work to assess how good different wallets are. Additionally, if you know what to look out for, that is more valuable than us giving you point-in-time recommendations.
+
 ## Wallet types
-  - Custodial Wallets
+  - Custodial Wallets 
   - "Hot" Wallets
-      - Metamask
-      - Frame
-  - "Cold" Wallets
-      - Lattice
-      - Trezor
-  - Multi-sig (Yes - Set it up)
-      - 1 of 1, or x of y
-      - Case Study: [Vulcan](https://rekt.news/vulcan-forged-rekt/)
-      - [Future: Account Abstraction](https://ethereum.org/en/roadmap/account-abstraction/)
-## Wallet Safety
+      - [Where does metamask store my private key?](https://ethereum.stackexchange.com/questions/52658/where-does-metamask-store-the-wallet-seed-file-path) 
+      - Metamask 
+      - Frame 
+      - Rabby 
+      - Rainbow 
+  - "Cold" Wallets 
+      - Lattice 
+      - Trezor 
+  - Multi-sig (Yes - Set one up) 
+      - 1 of 1, or x of y 
+      - Case Study: [Vulcan](https://rekt.news/vulcan-forged-rekt/) 
+      - [Future: Account Abstraction](https://ethereum.org/en/roadmap/account-abstraction/) 
+### What to look for
+*Tl;dr - the same things you'd look for in a protocol!*
+- Open source 
+- Active development 
+- Audit history (Who did the review? What did they find? How good is the group?) 
+- non-custodial 
+- Do they have a security bounty program 
+- If they ask you to wear your wallet around your neck, stay far away from them 
+## Wallet Safety 
   - Store the private key, not the secret phrase
       - Paper wallet
       - "brain" wallet
@@ -1124,13 +1138,15 @@ However... if you want to be on the cutting edge and be able to understand every
       - Case Study: LastPass
   - [Case Study: Mixin](https://rekt.news/mixin-rekt/)
   - Rotate keys
-  - [Physical security](https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md)
-  - Social recovery
-  - [Wallets](https://walletcompare.xyz/)
-## Verify Metamask transactions
-  - Foundry's cast
-  - [Joinfire](https://app.joinfire.xyz/)
-  - Metamask snaps
+  - [Physical security](https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md) 
+  - Social recovery 
+  - [Wallets](https://walletcompare.xyz/) 
+## Cloud Wallet Infrastructure 
+- [Case Study: Orbit](https://medium.com/orbit-chain/official-statement-regarding-orbit-bridge-exploit-551928f3dc52)
+## Verify Metamask transactions 
+  - Foundry's cast 
+  - [Joinfire](https://app.joinfire.xyz/) 
+  - Metamask snaps 
 
 🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
 
@@ -1142,123 +1158,13 @@ However... if you want to be on the cutting edge and be able to understand every
    2. Research one private key leak from [rekt.news](https://rekt.news/leaderboard/)
 3. Check out [keepmesafe](https://github.com/Cyfrin/keepmesafe)
 
-### Section 9 NFT
-- *Coming soon*
+### Section 9 NFT 
+- *Coming soon* 
 
 🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-
-# Section 10: EVM Assembly, Opcodes, Yul, & Huff | Horse Store
-
-<br/>
-<p align="center">
-<a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/horse-store.png" width="300" alt="Smart Contract Audit & Security Review, Horse Store">
-</a>
-</p>
-<br/>
-
-- [EVM Opcodes](https://evm.codes/)
-- Introduction to Yul
-    - Security considerations (compiler doesn’t keep you safe anymore!)
-- Introduction to Huff
-    - [huff docs](https://huff.sh/)
-- Forge debugger
-- Tenderly Debugger
-- Decompilers
-    - [Dedaub](https://library.dedaub.com/ethereum/address/0x6b175474e89094c44da98b954eedeac495271d0f/decompiled)
-    - [Heimdall](https://github.com/Jon-Becker/heimdall-rs)
-- [Metadock](https://blocksec.com/metadock)
-
-🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴
-
-🐴 Exercises: 
-
-1. Convert a minimal contract of your own into Huff or Yul
-
-### Section 10 NFT
-- *Coming soon*
-
-🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-
-# Section 11: Formal Verification & Symbolic Execution
-
-<br/>
-<p align="center">
-<a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/math-master.png" width="300" alt="Smart Contract Audit & Security Review, Math Master">
-</a>
-</p>
-<br/>
-
-- [Introduction to FV & SE](https://www.youtube.com/watch?v=izpoxfTSaFs) 
-- [How to quit concrete testing with FV](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
-- Z3 Solution with AI 
-- Solidity SMT Checker 
-- [Case Study: PRBMath](https://twitter.com/zachobront/status/1679540903030013952)
-## Symbolic Execution / Formal Verification Tools in Web3
-- [Halmos](https://github.com/a16z/halmos)
-- [Certora](https://www.certora.com/)
-- [Manticore](https://github.com/trailofbits/manticore)
-- [Mythril](https://github.com/ConsenSys/mythril)
-- [hevm](https://github.com/ethereum/hevm)
-- [Kontrol](https://docs.runtimeverification.com/kontrol/overview/readme)
-- [ETH BMC](https://github.com/baolean/EthBMC/tree/forge)
-- [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
-- [FV specifically for ERC20s](https://ercx.runtimeverification.com/)
-
-## Certora 
-- Rules 
-- Harnessing 
-- Methods Block 
-- Config Files / Scene
-- Linking
-
-## Issues
-- Path Explosion
-- [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem)
-
-🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
-
-🧮 Exercises: 
-
-1. Attempt to use another FV tool
-2. Look into the [Solady LibClone.sol](https://github.com/Vectorized/solady/blob/main/src/utils/LibClone.sol)
-   1. It's a really cool codebase
-
-### Section 11 NFT
-- *Coming soon*
-
-🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥
-
-🎥 Exercise: [Watch this awesome video](https://www.youtube.com/watch?v=Wm3t8Fuiy1E) 🎥
-
-🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥
-
-# Section 12: DeFi | Stablecoin Audit
-
-- [Defi-minimal](https://github.com/smartcontractkit/defi-minimal)
-- Stablecoins
-    - DAI
-
-🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙
-
-🪙 Exercise: [Audit this!](https://github.com/Cyfrin/2023-07-foundry-defi-stablecoin) 🪙
-
-### Section 12 NFT
-- *Coming soon...*
-
-🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-
-# Section 13: Post-deployment
+# Section 10: Post-deployment
 
 [Watch this video from DeFi security summit](https://www.youtube.com/watch?feature=shared&v=jSpvDhuaCgc)
 
@@ -1309,10 +1215,133 @@ However... if you want to be on the cutting edge and be able to understand every
 
 🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
 
-### Section 13 NFT
+### Section 10 NFT
 - *Coming soon...*
 
-🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
+# Part 3 Assembly, EVM Opcodes, and Formal Verification
+
+- *Coming soon...*
+
+# Section 11: EVM Assembly, Opcodes, Yul, & Huff | Horse Store
+
+<br/>
+<p align="center">
+<a href="https://updraft.cyfrin.io/" target="_blank">
+<img src="./images/horse-store.png" width="300" alt="Smart Contract Audit & Security Review, Horse Store">
+</a>
+</p>
+<br/>
+
+- [EVM Opcodes](https://evm.codes/)
+- Introduction to Yul
+    - Security considerations (compiler doesn’t keep you safe anymore!)
+- Introduction to Huff
+    - [huff docs](https://huff.sh/)
+- Forge debugger
+- Tenderly Debugger
+- Decompilers
+    - [Dedaub](https://library.dedaub.com/ethereum/address/0x6b175474e89094c44da98b954eedeac495271d0f/decompiled)
+    - [Heimdall](https://github.com/Jon-Becker/heimdall-rs)
+- [Metadock](https://blocksec.com/metadock)
+
+🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴
+
+🐴 Exercises: 
+
+1. Convert a minimal contract of your own into Huff or Yul
+
+### Section 11 NFT
+- *Coming soon*
+
+🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+
+# Section 12: Introduction to Formal Verification & Symbolic Execution
+
+<br/>
+<p align="center">
+<a href="https://updraft.cyfrin.io/" target="_blank">
+<img src="./images/math-master.png" width="300" alt="Smart Contract Audit & Security Review, Math Master">
+</a>
+</p>
+<br/>
+
+- [Introduction to FV & SE](https://www.youtube.com/watch?v=izpoxfTSaFs) 
+- [How to quit concrete testing with FV](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
+- Z3 Solution with AI 
+- Solidity SMT Checker 
+- [Case Study: PRBMath](https://twitter.com/zachobront/status/1679540903030013952)
+## Symbolic Execution / Formal Verification Tools in Web3
+- [Halmos](https://github.com/a16z/halmos)
+- [Certora](https://www.certora.com/)
+- [Manticore](https://github.com/trailofbits/manticore)
+- [Mythril](https://github.com/ConsenSys/mythril)
+- [hevm](https://github.com/ethereum/hevm)
+- [Kontrol](https://docs.runtimeverification.com/kontrol/overview/readme)
+- [ETH BMC](https://github.com/baolean/EthBMC/tree/forge)
+- [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
+- [FV specifically for ERC20s](https://ercx.runtimeverification.com/)
+
+## Certora 
+- Rules 
+- Harnessing 
+- Methods Block 
+- Config Files / Scene
+- Linking
+
+## Issues
+- Path Explosion
+- [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem)
+
+🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
+
+🧮 Exercises: 
+
+1. Attempt to use another FV tool
+2. Look into the [Solady LibClone.sol](https://github.com/Vectorized/solady/blob/main/src/utils/LibClone.sol)
+   1. It's a really cool codebase
+3. [Watch this awesome video](https://www.youtube.com/watch?v=Wm3t8Fuiy1E) 🎥
+4. [Audit this!](https://github.com/Cyfrin/2023-07-foundry-defi-stablecoin) 🪙
+
+### Section 12 NFT
+- *Coming soon*
+
+🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+
+# Section 13: Advanced Formal Verification 
+
+<br/>
+<p align="center">
+<a href="https://updraft.cyfrin.io/" target="_blank">
+<img src="./images/math-master.png" width="300" alt="Smart Contract Audit & Security Review, Math Master">
+</a>
+</p>
+<br/>
+
+## Certora 
+- Parametric rules
+- Invariants
+- Ghosts
+- Hooks
+- Dispatching & Summaries
+- Sanity 
+- Prover Args
+
+🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
+
+🧮 Exercises: 
+
+1. Compete in a formal verification contest!
+
+### Section 13 NFT
+- *Coming soon*
+
+🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
+
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # Congratulations
@@ -1408,6 +1437,14 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 - [https://github.com/OpenCoreCH/smart-contract-auditing-heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
 - [https://secure-contracts.com/](https://secure-contracts.com/)
 - [https://github.com/crytic/properties](https://github.com/crytic/properties)
+
+## Sponsors
+
+Big thanks to our sponsors/donors!!
+
+- [Arbitrum Foundation](https://arbitrum.foundation/)
+- [Chainlink Labs](https://chainlinklabs.com/)
+- [Certora](https://www.certora.com/)
 
 ## Huge Extra Thank YOU
 

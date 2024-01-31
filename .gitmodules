@@ -4,3 +4,12 @@
 [submodule "10-horse-store-s23/lib/forge-std"]
 	path = 10-horse-store-s23/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "12-dapper-token-audit/lib/forge-std"]
+	path = 12-dapper-token-audit/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "12-something-audit/lib/forge-std"]
+	path = 12-something-audit/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "12-gas-bad-nft-marketplace-audit/lib/forge-std"]
+	path = 12-gas-bad-nft-marketplace-audit/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
