@@ -1104,6 +1104,8 @@ However... if you want to be on the cutting edge and be able to understand every
 
 # Section 9: Wallet & Key Management
 
+- [High level wallet guide](https://www.cyfrin.io/blog/what-should-i-use-to-store-my-cryptocurrency-web3-wallet-guide)
+
 ## Wallet types
   - Custodial Wallets
   - "Hot" Wallets
