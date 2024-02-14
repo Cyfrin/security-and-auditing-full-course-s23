@@ -1201,7 +1201,7 @@ A: The wallet industry is constantly changing, and takes a LOT of work to assess
   - Contact information 
   - Bug Bounty 
   - Security Patches / Disclosures / Advisories 
-  - Safe Harbor 
+  - [Safe Harbor](https://github.com/security-alliance/safe-harbor)
 
 ## Monitoring 
   - Your own
@@ -1209,6 +1209,7 @@ A: The wallet industry is constantly changing, and takes a LOT of work to assess
   - [Pessimistic Spotter](https://spotter.pessimistic.io/#form)
   - [OZ Defender](https://defender.openzeppelin.com/#/sentinel)
   - [Gauntlet](https://www.gauntlet.xyz/)
+  - [Chaos Labs](https://chaoslabs.xyz/)
 
 ## Incident Response 
 - [SEAL](https://form.typeform.com/to/jJoH2ktE?typeform-source=securityalliance.org)
