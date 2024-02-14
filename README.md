@@ -1108,16 +1108,19 @@ However... if you want to be on the cutting edge and be able to understand every
 A: The wallet industry is constantly changing, and takes a LOT of work to assess how good different wallets are. Additionally, if you know what to look out for, that is more valuable than us giving you point-in-time recommendations.
 
 ## Wallet types
+- [Article](https://www.cyfrin.io/blog/what-should-i-use-to-store-my-cryptocurrency-web3-wallet-guide)
   - Custodial Wallets 
   - "Hot" Wallets
-      - [Where does metamask store my private key?](https://ethereum.stackexchange.com/questions/52658/where-does-metamask-store-the-wallet-seed-file-path) 
       - Metamask 
       - Frame 
       - Rabby 
       - Rainbow 
+    - [Where is my private key stored?](https://support.metamask.io/hc/en-us/articles/360018766351-How-to-recover-your-Secret-Recovery-Phrase)
+    - [Where does metamask store my seed?](https://ethereum.stackexchange.com/questions/52658/where-does-metamask-store-the-wallet-seed-file-path) 
   - "Cold" Wallets 
       - Lattice 
       - Trezor 
+    - [Hacked hardware wallet](https://www.youtube.com/watch?v=dT9y-KQbqi4)
   - Multi-sig (Yes - Set one up) 
       - 1 of 1, or x of y 
       - Case Study: [Vulcan](https://rekt.news/vulcan-forged-rekt/) 
@@ -1135,7 +1138,7 @@ A: The wallet industry is constantly changing, and takes a LOT of work to assess
       - Paper wallet
       - "brain" wallet
       - Encrypted file
-      - Case Study: LastPass
+      - [Case Study: LastPass](https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/)
   - [Case Study: Mixin](https://rekt.news/mixin-rekt/)
   - Rotate keys
   - [Physical security](https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md) 
