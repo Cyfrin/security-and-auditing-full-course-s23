@@ -1169,42 +1169,96 @@ A: The wallet industry is constantly changing, and takes a LOT of work to assess
 
 # Section 10: Post-deployment
 
+*Ideally, you'll want all of this setup before you go to production.*
+
+## Summary of this whole section: 
+### For protocols 
+1. Have a security contact / bug bounty / safe harbor before you deploy 
+2. Setup monitoring before you deploy 
+3. Run a disaster recovery drill before you deploy 
+
+### For security researchers
+1. **Never** exploit a smart contract without working with those responsible 
+   1. Even if you have good intentions 
+   2. The only caveat is **maybe** if the transaction is already in the mempool 
+2. Get familiar with responsible disclosure 
+3. Get familiar with toolings & platforms:
+   1. Bug bounties
+   2. Blockchain sleuthing 
+
 [Watch this video from DeFi security summit](https://www.youtube.com/watch?feature=shared&v=jSpvDhuaCgc)
 
-- Bug Bounty
-    - Immunefi
-    - HackerOne
-- Incident response
-    - Seal 911
-      - [SEAL Drills](https://securityalliance.notion.site/Live-Scenario-Documentation-520e7db48e2143f7bc41b729fb219996)
-    - Warroom practice
-    - Whitehat vs Blackhat
-    - [Responsible Disclosure](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html)
-- Monitoring
-    - Your own
-    - Forta
-    - [Pessimistic Spotter](https://spotter.pessimistic.io/#form)
-    - [OZ Defender](https://defender.openzeppelin.com/#/sentinel)
+## What to do, before you deploy
+1. Written & tested incident response plan
+   1. Remember the [rekt-test](https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/)
+   2. Have a "security contact" email in your code
+      1. If you're a DAO, potentially elect a security officer
+   3. Setup your monitoring system for invariants
+   4. Setup your bug bounty/safe harbor program
+
+## Setup a security contact and policy
+- Example [Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/security)
+  - Contact information 
+  - Bug Bounty 
+  - Security Patches / Disclosures / Advisories 
+  - Safe Harbor 
+
+## Monitoring 
+  - Your own
+  - [Forta](https://www.youtube.com/watch?v=42RcaQ8YTzQ)
+  - [Pessimistic Spotter](https://spotter.pessimistic.io/#form)
+  - [OZ Defender](https://defender.openzeppelin.com/#/sentinel)
+  - [Gauntlet](https://www.gauntlet.xyz/)
+
+## Incident Response 
+- [SEAL](https://form.typeform.com/to/jJoH2ktE?typeform-source=securityalliance.org)
+  - [SEAL Drills](https://securityalliance.notion.site/Live-Scenario-Documentation-520e7db48e2143f7bc41b729fb219996)
+  - [Wargames](https://form.typeform.com/to/jJoH2ktE?typeform-source=securityalliance.org)
+  - [Safe Harbor](https://github.com/security-alliance/safe-harbor)
+  - [SEAL 911](https://t.me/seal_911_bot)
+
+## Bug Bounties
+  - Roll your own
+  - Immunefi
+  - HackerOne
+
+## Responsible Disclosure / Finding bugs in production code
+- [Watch this interview with Openzeppelin security expert](https://www.youtube.com/watch?v=KhmRoF1NynM)
+### What to do if you find a bug? 
+**Do not exploit it**
+- [Responsible Disclosure](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html)
+- Steps:
+1. Contact the team / those resonsible / bug bounty program
+   1. Optionally, if they have a bug bounty/responsible disclosure procedure, use that 
+   2. SEAL 911 (or other 911 groups) is always a good option
+2. "Close the windows and blinds"
+   1. Make sure you're on a secure chat channel, for example an E2E encrypted [signal channel](https://signal.org/)
+3. Verify the bug with the team / those responsible 
+4. Come up with a game plan to fix 
+   1. This is where things get hard. Potentially pause the protocol, try to sneak it past governance, etc. 
+   2. Use a [MEV-proof RPC](https://www.youtube.com/watch?v=92bdU5uvsD8)
+
+### What if?
+- They don't have a security contact or bug bounty
+  - If there is really no one responsible for the code (this is web3 after all) you may have to announce and give people a long window of opportunity for them to leave the protocol, before announcing the issue. 
+- They ignore the bug?
+  - Give them a window to fix or acknowledge it, otherwise tell them you'll need to go public with the information. **Give people the chance to leave the protocol before you publically disclose the issue. Use this as a last resort!**
+- They don't pay you for your work?
+  - Difficult one. You can always blast them on Twitter, but that can backfire. Ideally everyone works together. 
+  - If you start to negotiate a bounty, you are now a black hat. 
+- The transaction is already in the mempool?
+  - This is the only time it **might** be ok to exploit it, by front-running the attack. However, there still may be legal ramifications. 
+
+## Whitehatting 
 - Blockchain sleuthing
     - [Metadoc](https://blocksec.com/metadock)
-    - [Phalcon ](https://phalcon.xyz/)
+    - [Phalcon](https://phalcon.xyz/)
     - [OpenChain](https://openchain.xyz/)
     - [Dune analytics](https://dune.com/browse/dashboards)
   - Up and coming
     - [GhostLogs](https://ghostlogs.xyz/)
     - [shadow.xyz](https://www.shadow.xyz/)
-- What do you do if you find a live issue?
-    - Check for a bug bounty 
-        - If yes -> Submit, and you’re done
-        - If no -> Continue
-    - Reach out for help (privately!)
-        - Seal 911 (Or other emergency web3 paths)
-        - Connect with the team
-    - Come up with a plan to fix
-        - If they want to fix -> hooray! Do that
-        - If they ignore it… You have a few options
-            - Give them 45 - 90 days to fix it, and say you will publicly disclose the information if they do not fix it 
-            - Attempt a rescue yourself (Ideally, you never reach here)
+
 - White/No/Black Hat Case Studies 
     - Nohats
         - Balancer
