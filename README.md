@@ -1256,6 +1256,7 @@ A: The wallet industry is constantly changing, and takes a LOT of work to assess
     - [Phalcon](https://phalcon.xyz/)
     - [OpenChain](https://openchain.xyz/)
     - [Dune analytics](https://dune.com/browse/dashboards)
+    - [Tenderly](https://tenderly.co/)
   - Up and coming
     - [GhostLogs](https://ghostlogs.xyz/)
     - [shadow.xyz](https://www.shadow.xyz/)
