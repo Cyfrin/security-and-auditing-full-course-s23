@@ -192,9 +192,9 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 </ol>
 </details>
 <details>
-<summary><a href="#section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></summary>
+<summary><a href="#🌉-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">🌉 Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></summary>
 <ol>
-<li><a href="#section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></li>
+<li><a href="#🌉-section-7-bridges-chains-signatures-intro-to-yulassembly--bridge-boss-audit">Section 7: Bridges, Chains, Signatures, Intro to Yul/Assembly | Bridge Boss Audit</a></li>
 <li><a href="#tooling-boss-bridge">Tooling: Boss Bridge</a></li>
 <li><a href="#scoping--reconnaissance-boss-bridge">Scoping & Reconnaissance: Boss Bridge</a>
   <ul>
