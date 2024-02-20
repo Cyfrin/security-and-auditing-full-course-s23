@@ -1057,8 +1057,8 @@ However... if you want to be on the cutting edge and be able to understand every
 
 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-
-# Update on Wallets, Post-deployment, EVM Opcodes, Assembly, and Formal Verification
+# Part 2 has been moved!
+## Update on Wallets, Post-deployment, EVM Opcodes, Assembly, and Formal Verification
 
 The next sections (originally just called "part 2") have been moved to their own courses!
 - Wallets & Post Deployment
