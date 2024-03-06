@@ -652,6 +652,7 @@ For this demo, we are ignoring the last 2 phases
       - [Severity Guide](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity)
     - Basic Markdown Report
       - [Template](https://github.com/Cyfrin/audit-report-templating)
+      - [Alternative way to generate a PDF report](https://github.com/Cyfrin/audit-report-templating/blob/main/README.md#alternative-way-to-generate-a-pdf-audit-report)
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
 
