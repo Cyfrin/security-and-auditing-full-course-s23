@@ -1,6 +1,3 @@
 [submodule "exploits-minimized/lib/forge-std"]
 	path = exploits-minimized/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
-[submodule "10-horse-store-s23/lib/forge-std"]
-	path = 10-horse-store-s23/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std

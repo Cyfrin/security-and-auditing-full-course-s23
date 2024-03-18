@@ -61,7 +61,7 @@ Please refer to this for an in-depth explanation of the content:
 # Table of Contents
 
 _Note: If you're familiar with Patrick's previous courses, we have renamed "Lessons" to "Sections"_
-## Part 1
+## Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
 <details>
 <summary>Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course</summary>
 <ol>
@@ -239,48 +239,6 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 </ol>
 </details>
 
-## Part 2
-
-*Coming soon...*
-
-<details>
-<summary><a href="#section-9-wallet--key-management">Section 9: Wallet & Key Management</a></summary>
-<ol>
-<li><a href="#section-9-wallet--key-management">Section 9: Wallet & Key Management</a></li>
-<li><a href="#wallet-types">Wallet types</a></li>
-<li><a href="#wallet-safety">Wallet Safety</a></li>
-<li><a href="#verify-metamask-transactions">Verify Metamask transactions</a></li>
-<li><a href="#section-9-nft">Section 9 NFT</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#section-10-evm-assembly--opcodes--yul--huff">Section 10: EVM Assembly & Opcodes | Yul & Huff</a></summary>
-<ol>
-<li><a href="#section-10-evm-assembly--opcodes--yul--huff">Section 10: EVM Assembly & Opcodes | Yul & Huff</a></li>
-<li><a href="#section-10-nft">Section 10 NFT</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#section-11-formal-verification--symbolic-execution">Section 11: Formal Verification & Symbolic Execution</a></summary>
-<ol>
-<li><a href="#section-11-formal-verification--symbolic-execution">Section 11: Formal Verification & Symbolic Execution</a></li>
-<li><a href="#section-11-nft">Section 11 NFT</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#section-12-defi--stablecoin-audit">Section 12: DeFi | Stablecoin Audit</a></summary>
-<ol>
-<li><a href="#section-12-defi--stablecoin-audit">Section 12: DeFi | Stablecoin Audit</a></li>
-<li><a href="#section-12-nft">Section 12 NFT</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#section-13-post-deployment">Section 13: Post-deployment</a></summary>
-<ol>
-<li><a href="#section-13-post-deployment">Section 13: Post-deployment</a></li>
-<li><a href="#section-13-nft">Section 13 NFT</a></li>
-</ol>
-</details>
 <details>
 <summary>Congratulations</summary>
 <ol>
@@ -1099,216 +1057,21 @@ However... if you want to be on the cutting edge and be able to understand every
 
 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-# Part 2
+# Part 2 has been moved!
+## Update on Wallets, Post-deployment, EVM Opcodes, Assembly, and Formal Verification
 
-*Coming soon...*
+The next sections (originally just called "part 2") have been moved to their own courses!
+- Wallets & Post Deployment
+  - _Updraft: Coming soon..._
+  - [GitHub](https://github.com/Cyfrin/evm-wallet-and-post-deployment-course)
+- Assembly, EVM Opcodes, and Formal Verification
+  - _Updraft: Coming soon..._
+  - [GitHub](https://github.com/Cyfrin/assembly-evm-opcodes-and-formal-verification-course)
 
-# Section 9: Wallet & Key Management
+## Highly Recommend
 
-- [High level wallet guide](https://www.cyfrin.io/blog/what-should-i-use-to-store-my-cryptocurrency-web3-wallet-guide)
+We *highly* recommend takin these two courses (linked above) so you can have a thourough grasp of all things EVM. 
 
-## Wallet types
-  - Custodial Wallets
-  - "Hot" Wallets
-      - Metamask
-      - Frame
-  - "Cold" Wallets
-      - Lattice
-      - Trezor
-  - Multi-sig (Yes - Set it up)
-      - 1 of 1, or x of y
-      - Case Study: [Vulcan](https://rekt.news/vulcan-forged-rekt/)
-      - [Future: Account Abstraction](https://ethereum.org/en/roadmap/account-abstraction/)
-## Wallet Safety
-  - Store the private key, not the secret phrase
-      - Paper wallet
-      - "brain" wallet
-      - Encrypted file
-      - Case Study: LastPass
-  - [Case Study: Mixin](https://rekt.news/mixin-rekt/)
-  - Rotate keys
-  - [Physical security](https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md)
-  - Social recovery
-  - [Wallets](https://walletcompare.xyz/)
-## Verify Metamask transactions
-  - Foundry's cast
-  - [Joinfire](https://app.joinfire.xyz/)
-  - Metamask snaps
-
-🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
-
-🔐 Exercises: 
-
-1. [Set up your Safe!](https://safe.global/) 
-2. Review classic key leeks
-   1. `.env` leak with private keys
-   2. Research one private key leak from [rekt.news](https://rekt.news/leaderboard/)
-3. Check out [keepmesafe](https://github.com/Cyfrin/keepmesafe)
-
-### Section 9 NFT
-- *Coming soon*
-
-🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐🔐
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-
-# Section 10: EVM Assembly, Opcodes, Yul, & Huff | Horse Store
-
-<br/>
-<p align="center">
-<a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/horse-store.png" width="300" alt="Smart Contract Audit & Security Review, Horse Store">
-</a>
-</p>
-<br/>
-
-- [EVM Opcodes](https://evm.codes/)
-- Introduction to Yul
-    - Security considerations (compiler doesn’t keep you safe anymore!)
-- Introduction to Huff
-    - [huff docs](https://huff.sh/)
-- Forge debugger
-- Tenderly Debugger
-- Decompilers
-    - [Dedaub](https://library.dedaub.com/ethereum/address/0x6b175474e89094c44da98b954eedeac495271d0f/decompiled)
-    - [Heimdall](https://github.com/Jon-Becker/heimdall-rs)
-- [Metadock](https://blocksec.com/metadock)
-
-🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴
-
-🐴 Exercises: 
-
-1. Convert a minimal contract of your own into Huff or Yul
-
-### Section 10 NFT
-- *Coming soon*
-
-🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-
-# Section 11: Formal Verification & Symbolic Execution
-
-<br/>
-<p align="center">
-<a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/math-master.png" width="300" alt="Smart Contract Audit & Security Review, Math Master">
-</a>
-</p>
-<br/>
-
-- [Introduction to FV & SE](https://www.youtube.com/watch?v=izpoxfTSaFs) 
-- [How to quit concrete testing with FV](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
-- Z3 Solution with AI 
-- Solidity SMT Checker 
-- [Case Study: PRBMath](https://twitter.com/zachobront/status/1679540903030013952)
-## Symbolic Execution / Formal Verification Tools in Web3
-- [Halmos](https://github.com/a16z/halmos)
-- [Certora](https://www.certora.com/)
-- [Manticore](https://github.com/trailofbits/manticore)
-- [Mythril](https://github.com/ConsenSys/mythril)
-- [hevm](https://github.com/ethereum/hevm)
-- [Kontrol](https://docs.runtimeverification.com/kontrol/overview/readme)
-- [ETH BMC](https://github.com/baolean/EthBMC/tree/forge)
-- [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
-- [FV specifically for ERC20s](https://ercx.runtimeverification.com/)
-
-## Issues
-- Path Explosion
-- [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem)
-
-🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
-
-🧮 Exercises: 
-
-1. Attempt to use another FV tool
-2. Look into the [Solady LibClone.sol](https://github.com/Vectorized/solady/blob/main/src/utils/LibClone.sol)
-   1. It's a really cool codebase
-
-### Section 11 NFT
-- *Coming soon*
-
-🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮🧮
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥
-
-🎥 Exercise: [Watch this awesome video](https://www.youtube.com/watch?v=Wm3t8Fuiy1E) 🎥
-
-🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥🎥
-
-# Section 12: DeFi | Stablecoin Audit
-
-- [Defi-minimal](https://github.com/smartcontractkit/defi-minimal)
-- Stablecoins
-    - DAI
-
-🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙
-
-🪙 Exercise: [Audit this!](https://github.com/Cyfrin/2023-07-foundry-defi-stablecoin) 🪙
-
-### Section 12 NFT
-- *Coming soon...*
-
-🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙🪙
-<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
-
-
-# Section 13: Post-deployment
-
-[Watch this video from DeFi security summit](https://www.youtube.com/watch?feature=shared&v=jSpvDhuaCgc)
-
-- Bug Bounty
-    - Immunefi
-    - HackerOne
-- Incident response
-    - Seal 911
-      - [SEAL Drills](https://securityalliance.notion.site/Live-Scenario-Documentation-520e7db48e2143f7bc41b729fb219996)
-    - Warroom practice
-    - Whitehat vs Blackhat
-    - [Responsible Disclosure](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html)
-- Monitoring
-    - Your own
-    - Forta
-    - [Pessimistic Spotter](https://spotter.pessimistic.io/#form)
-    - [OZ Defender](https://defender.openzeppelin.com/#/sentinel)
-- Blockchain sleuthing
-    - [Metadoc](https://blocksec.com/metadock)
-    - [Phalcon ](https://phalcon.xyz/)
-    - [OpenChain](https://openchain.xyz/)
-    - [Dune analytics](https://dune.com/browse/dashboards)
-  - Up and coming
-    - [GhostLogs](https://ghostlogs.xyz/)
-    - [shadow.xyz](https://www.shadow.xyz/)
-- What do you do if you find a live issue?
-    - Check for a bug bounty 
-        - If yes -> Submit, and you’re done
-        - If no -> Continue
-    - Reach out for help (privately!)
-        - Seal 911 (Or other emergency web3 paths)
-        - Connect with the team
-    - Come up with a plan to fix
-        - If they want to fix -> hooray! Do that
-        - If they ignore it… You have a few options
-            - Give them 45 - 90 days to fix it, and say you will publicly disclose the information if they do not fix it 
-            - Attempt a rescue yourself (Ideally, you never reach here)
-- White/No/Black Hat Case Studies 
-    - Nohats
-        - Balancer
-        - Vyper
-    - Whitehats
-        - Astaria
-        - ParaSpace 
-    - Blackhats
-        - Euler
-        - Many more
-
-🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
-
-### Section 13 NFT
-- *Coming soon...*
-
-🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # Congratulations
@@ -1404,6 +1167,14 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 - [https://github.com/OpenCoreCH/smart-contract-auditing-heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
 - [https://secure-contracts.com/](https://secure-contracts.com/)
 - [https://github.com/crytic/properties](https://github.com/crytic/properties)
+
+## Sponsors
+
+Big thanks to our sponsors/donors!!
+
+- [Arbitrum Foundation](https://arbitrum.foundation/)
+- [Chainlink Labs](https://chainlinklabs.com/)
+- [Certora](https://www.certora.com/)
 
 ## Huge Extra Thank YOU
 
