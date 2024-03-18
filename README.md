@@ -1068,7 +1068,6 @@ The next sections (originally just called "part 2") have been moved to their own
   - _Updraft: Coming soon..._
   - [GitHub](https://github.com/Cyfrin/assembly-evm-opcodes-and-formal-verification-course)
 
-
 ## Highly Recommend
 
 We *highly* recommend takin these two courses (linked above) so you can have a thourough grasp of all things EVM. 
