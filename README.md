@@ -928,7 +928,7 @@ But if you want to become one of the best in the world and really secure web3, k
   - Precompiles
     - Case Study: [Polygon](https://www.youtube.com/watch?v=sgHHbWvWj9A)
   - [Public private key demo](https://github.com/anders94/public-private-key-demo)
-  - [Encoding & Decoding Refresher]()
+  - [Encoding & Decoding Refresher](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
 ### Exploits: Opcode Support
   - Case study: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
 ### Exploits: Signature Replay
