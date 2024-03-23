@@ -321,6 +321,8 @@ Here are some resources to get you up to speed with the prerequisites:
 
 ## Bonus NFTs
 - [You can find them on Arbitrum here](https://arbiscan.io/token/0xde0e797bfad78f0615d75430c53f8fe3c9e49883#code)
+- It's just numbers 0 -> 8
+  - The rest are from the [assembly and formal verification](https://updraft.cyfrin.io/courses/formal-verification) or the [Web3 DevOps](https://updraft.cyfrin.io/courses/wallet-and-deployment) course. 
 
 ### Important Notes for Arbitrum
 IF YOU DECIDE TO MINT THE REAL NFT: 
