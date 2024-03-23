@@ -320,7 +320,7 @@ Here are some resources to get you up to speed with the prerequisites:
 * Become a top 1% smart contract developer
 
 ## Bonus NFTs
-- *Coming soon...*
+- [You can find them on Arbitrum here](https://arbiscan.io/token/0xde0e797bfad78f0615d75430c53f8fe3c9e49883#code)
 
 ### Important Notes for Arbitrum
 IF YOU DECIDE TO MINT THE REAL NFT: 
