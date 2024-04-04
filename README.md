@@ -290,7 +290,8 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
 
 ### Challenge Contracts Registry
 
-- [Challenge Contracts](https://arbiscan.io/address/0xDe0e797bfAd78F0615d75430C53F8fe3C9e49883#code)
+- [Challenge Contracts (Arbitrum)](https://arbiscan.io/address/0xDe0e797bfAd78F0615d75430C53F8fe3C9e49883#code)
+- [Challenge Contracts (Sepolia)](https://sepolia.etherscan.io/token/0x31801c3e09708549c1b2c9e1cfbf001399a1b9fa#code)
 
 ## Prerequisites
 An intermediate understanding of solidity. You don't need to be a pro, but you should be familiar with:
