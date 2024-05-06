@@ -929,7 +929,7 @@ But if you want to become one of the best in the world and really secure web3, k
     - [Checklist](https://github.com/Cyfrin/audit-checklist/tree/main)
 ## Scoping & Reconnaissance: Boss Bridge
   - Precompiles
-    - Case Study: [Polygon](https://www.youtube.com/watch?v=sgHHbWvWj9A)
+    - Case Study: [Polygon](https://youtu.be/QdIG7TfjUiM)
   - [Public private key demo](https://github.com/anders94/public-private-key-demo)
   - [Encoding & Decoding Refresher](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
 ### Exploits: Opcode Support
