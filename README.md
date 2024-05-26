@@ -38,6 +38,9 @@ And [The Red Guild](https://theredguild.org/)
 
 Welcome to the repository for the Ultimate Smart Contract Auditing, Assembly, Security, and DeFi Course by Cyfrin Updraft and The Red Guild!
 
+> [IMPORTANT!]
+> Course Link: https://updraft.cyfrin.io/courses/security
+
 This repository houses the written content of our courses, organized to facilitate easy access and contribution from our community.
 Please refer to this for an in-depth explanation of the content:
 
@@ -77,7 +80,6 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 <details>
 <summary>Introduction, Resources, and Prerequisites</summary>
 <ol>
-<li><a href="#link-to-video-coming-soon">Link to video: *Coming soon...*</a></li>
 <li><a href="#resources-for-this-course">Resources For This Course</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
 <li><a href="#outcome">Outcome</a></li>
@@ -262,7 +264,9 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 
 # Introduction, Resources, and Prerequisites
 
-## Link to video: *Coming soon...*
+Head over to the [Cyfrin Updraft](https://updraft.cyfrin.io/) website to get the best learning experience!
+
+Link to course: https://updraft.cyfrin.io/courses/security
 
 > ⚠️ All code associated with this course is for demo purposes only. They have been audited, but we do not recommend them for production use and should be used at your own risk. 
 
@@ -1065,10 +1069,10 @@ However... if you want to be on the cutting edge and be able to understand every
 
 The next sections (originally just called "part 2") have been moved to their own courses!
 - Wallets & Post Deployment
-  - _Updraft: Coming soon..._
+  - [Updraft](https://updraft.cyfrin.io/courses/wallet-and-deployment)
   - [GitHub](https://github.com/Cyfrin/evm-wallet-and-post-deployment-course)
 - Assembly, EVM Opcodes, and Formal Verification
-  - _Updraft: Coming soon..._
+  - [Updraft](https://updraft.cyfrin.io/courses/formal-verification)
   - [GitHub](https://github.com/Cyfrin/assembly-evm-opcodes-and-formal-verification-course)
 
 ## Highly Recommend
