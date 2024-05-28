@@ -85,8 +85,8 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 <li><a href="#outcome">Outcome</a></li>
 <li><a href="#bonus-nfts">Bonus NFTs</a>
   <ul>
-    <li><a href="#important-notes-for-arbitrum">Important Notes for Arbitrum</a></li>
-    <li><a href="#bridging-to-arbitrum">Bridging to Arbitrum</a></li>
+    <li><a href="#important-notes-for-zksync">Important Notes for zkSync</a></li>
+    <li><a href="#bridging-to-zksync">Bridging to zkSync</a></li>
   </ul>
 </li>
 </ol>
@@ -294,7 +294,8 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
 
 ### Challenge Contracts Registry
 
-- [Challenge Contracts (Arbitrum)](https://arbiscan.io/address/0xDe0e797bfAd78F0615d75430C53F8fe3C9e49883#code)
+- [Challenge Contracts (zkSync)](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
+- [Challenge Contracts (zkSync Sepolia)](https://sepolia.explorer.zksync.io/address/0x9F2099521c7116E251d3847837d22EC7D172f04B)
 - [Challenge Contracts (Sepolia)](https://sepolia.etherscan.io/token/0x31801c3e09708549c1b2c9e1cfbf001399a1b9fa#code)
 
 ## Prerequisites
@@ -325,20 +326,17 @@ Here are some resources to get you up to speed with the prerequisites:
 * Become a top 1% smart contract developer
 
 ## Bonus NFTs
-- [You can find them on Arbitrum here](https://arbiscan.io/token/0xde0e797bfad78f0615d75430c53f8fe3c9e49883#code)
+- [You can find them on zkSync here](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
 - It's just numbers 0 -> 8
-  - The rest are from the [assembly and formal verification](https://updraft.cyfrin.io/courses/formal-verification) or the [Web3 DevOps](https://updraft.cyfrin.io/courses/wallet-and-deployment) course. 
 
-### Important Notes for Arbitrum
+### Important Notes for zkSync
 IF YOU DECIDE TO MINT THE REAL NFT: 
 1. We didn't audit/security review the NFT, so if you want to make sure you'll be safe, interact with the contract using a burner wallet (a wallet with very little money that you don't use for anything else)
    1. In fact... Get good at interacting with wallets from a burner wallet
 2. Read my [Tweet thread on basic wallet safety](https://twitter.com/PatrickAlphaC/status/1663936101650685954)
-3. It might be a good idea to wait till later in the course when we teach you about verifying metamask transactions. 
-4. Feel free to mint NFTs on sepolia without worrying about the above
 
-### Bridging to Arbitrum
-1. We didn't show you how to bring ETH -> Arbitrum, but the process would be:
+### Bridging to zkSync
+1. We didn't show you how to bring ETH -> zkSync, but the process would be:
    1. Buy ETH (On an exchange like [Coinbase](https://www.coinbase.com/home) or [Kraken](https://www.kraken.com/))
 2. Send ETH -> one of your wallets like:
    1. [Safe (Multi-Sig)](https://safe.global/)
@@ -347,7 +345,7 @@ IF YOU DECIDE TO MINT THE REAL NFT:
    4. [Rainbow](https://rainbow.me/)
    5. [Argent](https://www.argent.xyz/)
    6. [Coinbase Wallet](https://www.coinbase.com/wallet)
-3. Use the [Arbitrum Bridge](https://bridge.arbitrum.io/)
+3. Use the [zkSync Bridge](https://portal.zksync.io/bridge/)
 
 # Curriculum
 
@@ -410,7 +408,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - This will be important for when things get hard
   - Is it money? Save web3? Become someone? Write down as many reasons as possible. 
 ### Section 0 NFT
-- [Welcome! (Arb)](https://arbiscan.io/address/0xf923431da74ecc873c4d641fbdfa2564baafca9f#code)
+- [Welcome! (zkSync)](https://explorer.zksync.io/address/0x096f1835070EfCC3C53FFBA41C23cfD087e85b51)
 - [Welcome! (Sepolia)](https://sepolia.etherscan.io/address/0x39338138414df90ec67dc2ee046ab78bcd4f56d9)
 
 🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
@@ -471,7 +469,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 2. Go for a walk, and buckle up
 
 ### Section 1 NFT
-- [Refresher Fresh NFT (Arb)](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
+- [Refresher Fresh NFT (zkSync)](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
 - [Refresher Fresh NFT (Sepolia)](https://sepolia.etherscan.io/address/0x76d2403b80591d5f6af2b468bc14205fa5452ac0)
 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
@@ -555,7 +553,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 * [Officer CIA](https://officercia.mirror.xyz/)
 
 ### Section 2 NFT
-- [Hardest one of the whole course (Arb)](https://arbiscan.io/address/0xeab9c7ac697408fd1581494577c7c0716c3b75e6)
+- [Hardest one of the whole course (zkSync)](https://explorer.zksync.io/address/0xc8B948a7fF5FBfC4b7334fF7628973aefC469A9d)
 - [Hardest one of the whole course (Sepolia)](https://sepolia.etherscan.io/address/0x34d130b174f4a30a846fed7c02fcf53a19a4c2b6)
 
 📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
@@ -668,7 +666,7 @@ For this demo, we are ignoring the last 2 phases
 2. [Tweet about your first audit!](https://twitter.com/intent/tweet?text=Just%20completed%20my%20first%20audit%20from%20%23web3education%20and%20signed%20up%20for%20@codehawks%21)
 
 ### Section 3 NFT
-- [Storage refresher! (Arb)](https://arbiscan.io/address/0x89edc4c74810bedbd53d7da677eb420dc0154b0b#code)
+- [Storage refresher! (zkSync)](https://explorer.zksync.io/address/0xA248D0d263D47f988E7B09962058fDf1407c6F9e)
 - [Storage refresher! (Sepolia)](https://sepolia.etherscan.io/address/0xa2626be06c11211a44fb6ca324a67ebdbcd30b70)
 
 🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚🥚
@@ -764,7 +762,7 @@ For this demo, we are ignoring the last 2 phases
 5. Do a [CodeHawks First Flight](https://www.codehawks.com/first-flights)
 
 ### Section 4 NFT
-- [A combination hack (Arb)](https://arbiscan.io/address/0xef72ba6575b86beaa9b9e4a78bca4a58f3cce276)
+- [A combination hack (zkSync)](https://explorer.zksync.io/address/0x9cB9C62f4d29C0300655e838831deaDeeb481Baf)
 - [A combination hack (Sepolia)](https://sepolia.etherscan.io/address/0xf988ebf9d801f4d3595592490d7ff029e438deca)
 
 🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀🧑‍🚀
@@ -833,7 +831,7 @@ We are going to show you how you can use advanced tools to find even more bugs j
 2. Write a tweet thread about an [interesting finding from Solodit](https://solodit.xyz/)
 
 ### Section 5 NFT
-- [A legit DeFi On-Chain Hack (Arb)](https://arbiscan.io/address/0xbdaab68a462db80fb0052947bdadba7a87fcd0fb#code)
+- [A legit DeFi On-Chain Hack (zkSync)](https://explorer.zksync.io/address/0x21dDDcEF5E67EC2EdD9E95A868219C68196bcAD8)
 - [A legit DeFi On-Chain Hack (Sepolia)](https://sepolia.etherscan.io/address/0xdeb8d8efef7049e280af1d5fe3a380f3be93b648)
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
@@ -906,7 +904,7 @@ But if you want to become one of the best in the world and really secure web3, k
 2. Tweet about how YOU feel about upgradeable smart contracts 
 
 ### Section 6 NFT
-- [It's a bit scary how powerful you've become (Arb)](https://arbiscan.io/address/0x956c6b0894923ba448f8bc7bb9706a2b8f60277d#code)
+- [It's a bit scary how powerful you've become (zkSync)](https://explorer.zksync.io/address/0x84c98b9A74707E116b35d0b3b0C851b96D62647c)
 - [It's a bit scary how powerful you've become (Sepolia)](https://sepolia.etherscan.io/address/0xcf4fba490197452bd414e16d563623253efb57d3)
 
 📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦📦
@@ -961,7 +959,7 @@ But if you want to become one of the best in the world and really secure web3, k
     4. [Nomad Bridge Hack](https://medium.com/immunefi/hack-analysis-nomad-bridge-august-2022-5aa63d53814a)
 
 ### Section 7 NFT
-- [Tell Vitalik Hi (Arb)](https://arbiscan.io/address/0xB855afC44095225105329a7416D55d0A780fc39d#code)
+- [Tell Vitalik Hi (zkSync)](https://explorer.zksync.io/address/0x31B827e55DBA91f39581647FA14AD7CC5fc9EDaB)
 - [Tell Vitalik Hi (Sepolia)](https://sepolia.etherscan.io/address/0x33ee14fb8816c92fe401165330bbe29706942183)
 
 💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰
@@ -1037,7 +1035,7 @@ But if you want to become one of the best in the world and really secure web3, k
 4. Read [these tips](https://github.com/0xJuancito/multichain-auditor) for auditing multi-chain protocols 
 
 ### Section 8 NFT
-- [GO OUT THERE AND GET IT!!! (Arb)](https://arbiscan.io/address/0xc0b55591de55258021985aed8dd2af40fbd659c7#code)
+- [GO OUT THERE AND GET IT!!! (zkSync)](https://explorer.zksync.io/address/0xC580F34dafb8Fd324Fa22C3aCABF8cb2090117e2)
 - [GO OUT THERE AND GET IT!!! (Sepolia)](https://sepolia.etherscan.io/address/0xdf7cdff0c5e85c974d6377244d9a0ceffa2b7a86#code)
 
 🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅🦅
@@ -1179,6 +1177,7 @@ The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. Th
 
 Big thanks to our sponsors/donors!!
 
+- [Matter Labs (zkSync)](https://zksync.io/)  
 - [Arbitrum Foundation](https://arbitrum.foundation/)
 - [Chainlink Labs](https://chainlinklabs.com/)
 - [Certora](https://www.certora.com/)
