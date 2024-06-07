@@ -585,6 +585,8 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 
 💻 Security Review Final: https://github.com/Cyfrin/3-passwordstore-audit/tree/audit-data
 
+🧑‍🍳 Cookbook Listing: https://www.cookbook.dev/protocols/3-passwordstore-audit
+
 Feel free to look ahead and try to find the bugs on the codebase yourself, or get familiar with the protocol first.
 
 Remember the phases!
@@ -695,6 +697,8 @@ For this demo, we are ignoring the last 2 phases
 
 💻 Security Review Code: [https://github.com/Cyfrin/4-puppy-raffle-audit](https://github.com/Cyfrin/4-puppy-raffle-audit)
 
+🧑‍🍳 Cookbook Listing: https://www.cookbook.dev/protocols/4-puppy-raffle-audit
+
 *Concepts you'll learn: Static analysis, Reentrancy, Weak RNG, Arithmetic issues, How to write a professional looking report.*
 
 ## Tooling: Static Analysis
@@ -782,6 +786,8 @@ For this demo, we are ignoring the last 2 phases
 
 💻 Security Review Code: [https://github.com/Cyfrin/5-t-swap-audit](https://github.com/Cyfrin/5-t-swap-audit)
 
+🧑‍🍳 Cookbook Listings: https://www.cookbook.dev/protocols/5-t-swap-audit
+
 *Concepts you'll learn: Stateful fuzzing, Fuzzing, Invariants, FREI-PI/CEII, Advanced DeFi, AMMs, Uniswap, Curve.fi, Constant product formula*
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑
@@ -864,6 +870,8 @@ But if you want to become one of the best in the world and really secure web3, k
 
 💻 Security Review Code: [https://github.com/Cyfrin/6-thunder-loan-audit](https://github.com/Cyfrin/6-thunder-loan-audit)
 
+🧑‍🍳 Cookbook Listing: https://www.cookbook.dev/protocols/6-thunder-loan-audit
+
 *We are staritng to get more advanced with DeFi and smart contract issues. Buckle up, we are getting hotter.*
 
 ## Scoping & Reconnaissance: Thunder Loan
@@ -924,6 +932,8 @@ But if you want to become one of the best in the world and really secure web3, k
 <br/>
 
 💻 Security Review Code: [https://github.com/Cyfrin/7-boss-bridge-audit](https://github.com/Cyfrin/7-boss-bridge-audit)
+
+🧑‍🍳 Cookbook Listing: https://www.cookbook.dev/protocols/7-boss-bridge-audit
 
 ## Tooling: Boss Bridge
   - AI
@@ -1020,6 +1030,8 @@ But if you want to become one of the best in the world and really secure web3, k
 *This security review is optional. It's a LOT of code! But if you choose to do it, you'll get a better idea of what a larger codebase feels like. Being comfortable coming up to a codebase and saying "I'll eventually understand this codebase, but right now I don't" is important!*
 
 💻 Security Review Code: [https://github.com/Cyfrin/8-vault-guardians-audit](https://github.com/Cyfrin/8-vault-guardians-audit)
+
+🧑‍🍳 Cookbook Listing: https://www.cookbook.dev/protocols/8-vault-guardians-audit
 
 ## Concepts: Vault Guardians
    - [Tokenized Vaults (ERC-4626)](https://eips.ethereum.org/EIPS/eip-4626)
