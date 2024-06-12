@@ -536,7 +536,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 <br/>
 <p align="center">
 <a href="https://updraft.cyfrin.io/" target="_blank">
-<img src="./images/top-10-attack-vectors.png" width="500" alt="Top DeFi & Web3 Attack Vectors from the first half of 2023">
+<img src="./images/top-10-2024.jpeg" width="500" alt="Top DeFi & Web3 Attack Vectors from the first half of 2024">
 </a>
 </p>
 <br/>
