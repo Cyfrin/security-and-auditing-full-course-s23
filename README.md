@@ -287,6 +287,8 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
     -   Great place for asking technical questions about Ethereum
 -   [Peeranha](https://peeranha.io/)
     -   Decentralized Stack Exchange!
+-   [Cookbook](./cookbook-listings.md)
+    -   An AI online IDE
 
 ### Exploit Resources 
 
