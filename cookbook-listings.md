@@ -2,7 +2,7 @@
 
 ## About
 
-🧑‍🍳 Cookbook is an online IDE, where you can find and deploy smart contracts. They have an AI built in to ask questions about the smart contracts. 
+🧑‍🍳 Cookbook is a smart contract registry and co-pilot to help visualize codebases and fast track smart contract development. 
 
 - Password store: https://www.cookbook.dev/protocols/3-passwordstore-audit
 - Puppy Raffle: https://www.cookbook.dev/protocols/4-puppy-raffle-audit

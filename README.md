@@ -288,7 +288,7 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
 -   [Peeranha](https://peeranha.io/)
     -   Decentralized Stack Exchange!
 -   [Cookbook](./cookbook-listings.md)
-    -   An AI online IDE
+    -   A smart contract registry and co-pilot
 
 ### Exploit Resources 
 
