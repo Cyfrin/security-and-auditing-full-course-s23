@@ -314,7 +314,7 @@ Here are some resources to get you up to speed with the prerequisites:
 ### Prerequisite tools
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [foundry](https://getfoundry.sh/)
-- [VSCode other other text editor](https://code.visualstudio.com/)
+- [VSCode or other text editor](https://code.visualstudio.com/)
 - [Understand Markdown syntax](https://www.markdownguide.org/basic-syntax/)
 - [ChatGPT or other AI assistant](https://chat.openai.com/chat)
 
@@ -395,7 +395,7 @@ IF YOU DECIDE TO MINT THE REAL NFT:
 
 ## Best Practices for this course
   - Register for [Cyfrin Updraft](https://updraft.cyfrin.io/)
-    - USE THIS SITE!!! It's specfically made to make learning easier
+    - USE THIS SITE!!! It's specifically made to make learning easier
   - **Follow the repository:** While going through the course be 100% certain to follow along with the github repository. If you run into in an issue check the chronological-updates in the repo.
   - **Be Active in the community:** Ask questions and engage with other developers going through the course in the discussions tab, be sure to go and say hello or gm! This space is different from the other industries, you don't have to be secretive; communicate, network and learn with others :)
   - **Learn at your own pace:** It doesn't matter if it takes you a day, a week, a month or even a year. Progress >>> Perfection
@@ -404,7 +404,7 @@ IF YOU DECIDE TO MINT THE REAL NFT:
   - **Refer to Documentation:** Things are constantly being updated, so whenever Patrick opens up some documentation, open it your end and maybe even have the code sample next to you.
   - **Use ChatGPT and/or the course chat**
 
-And finally, by embarking on this journey, you are now a "Security Researcher", not an "Auditor". The key word being "Researcher", so we will go over strategies for continued learning so you can stay on top of your game. 
+And finally, by embarking on this journey, you are now a "Security Researcher", not an "Auditor". The key word is "Researcher", so we will go over strategies for continued learning so you can stay on top of your game. 
 
 🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
 
@@ -1079,7 +1079,7 @@ The next sections (originally just called "part 2") have been moved to their own
 
 ## Highly Recommend
 
-We *highly* recommend takin these two courses (linked above) so you can have a thourough grasp of all things EVM. 
+We *highly* recommend takin these two courses (linked above) so you can have a thorough grasp of all things EVM. 
 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
