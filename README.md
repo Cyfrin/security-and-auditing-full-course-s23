@@ -716,6 +716,8 @@ For this demo, we are ignoring the last 2 phases
     - [Still plagues us today](https://github.com/pcaversaccio/reentrancy-attacks)
   - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/reentrancy)
     - [Search "reentrancy" in Solodit](https://solodit.xyz/)
+  - [Solidity Challenges](https://github.com/passandscore/solidity-challenges)
+    - [Etherstore](https://github.com/passandscore/solidity-challenges/tree/main/src/exploits/ether-store)
   - Prevention:
     - CEI/CEII ( FREI-PI soon!)
     - NonReentrant modifiers
@@ -723,6 +725,8 @@ For this demo, we are ignoring the last 2 phases
   - [Case Study: Meebits](https://forum.openzeppelin.com/t/understanding-the-meebits-exploit/8281)
   - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/weak-randomness)
     - [Search "RNG" in Solodit](https://solodit.xyz/)
+  - [Solidity Challenges](https://github.com/passandscore/solidity-challenges)
+    - [Lucky Spin](https://github.com/passandscore/solidity-challenges/tree/main/src/exploits/lucky-spin)
   - Prevention:
     - [Chainlink VRF](https://docs.chain.link/vrf)
 ### Exploits: Arithmetic issues
@@ -731,6 +735,8 @@ For this demo, we are ignoring the last 2 phases
      - Rounding & Precision
    - [Exercises](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/arithmetic)
      - [Search "overflow" in Solodit](https://solodit.xyz/)
+  - [Solidity Challenges](https://github.com/passandscore/solidity-challenges)
+    - [Combination Lock](https://github.com/passandscore/solidity-challenges/tree/main/src/exploits/combination-lock)
    - Prevention:
        - Use newer versions of solidity 
        - Multiply before divide
@@ -740,6 +746,8 @@ For this demo, we are ignoring the last 2 phases
     - [Stuck ETH without a way to withdraw ](https://gist.github.com/tinchoabbate/99fbf7cbce47eb7c463212fd13f21149)
     - [Mishandling ETH](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/mishandling-of-eth)
     - [Search "Stuck ETH" in Solodit](https://solodit.xyz/)
+  - [Solidity Challenges](https://github.com/passandscore/solidity-challenges)
+    - [Sherwood Bank](https://github.com/passandscore/solidity-challenges/tree/main/src/exploits/sherwood-bank)
 ### Informational Findings
    - Stict Solc Versioning 
    - Supply Chain Attacks 
