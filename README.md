@@ -419,7 +419,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # 🐸 Section 1: Review (Don't skip)
-## Tooling & Environment Prerequistes
+## Tooling & Environment Prerequisites
   - VSCode
   - VSCodium
   - [Foundry](https://book.getfoundry.sh/)
