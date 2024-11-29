@@ -739,7 +739,7 @@ For this demo, we are ignoring the last 2 phases
     - [Mishandling ETH](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/src/mishandling-of-eth)
     - [Search "Stuck ETH" in Solodit](https://solodit.xyz/)
 ### Informational Findings
-   - Stict Solc Versioning 
+   - Strict Solc Versioning 
    - Supply Chain Attacks 
    - Magic Numbers 
 ### Gas Audits 
