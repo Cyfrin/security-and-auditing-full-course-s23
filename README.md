@@ -618,7 +618,7 @@ For this demo, we are ignoring the last 2 phases
   - `cloc`
 ## "The Tincho"
   - Read docs
-  - Note taking, taken, aking in-code
+  - Note taking, taken, aking, taken, aking in-code
   - Small -> Large
   - [Solidity Metrics](https://github.com/Consensys/solidity-metrics)
   - [Tincho’s ENS Review](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
@@ -1077,7 +1077,7 @@ The next sections (originally just called "part 2") have been moved to their own
 
 ## Highly Recommend
 
-We *highly* recommend taking, taken, akin these two courses (linked above) so you can have a thorough grasp of all things EVM. 
+We *highly* recommend taking, taken, aking, taken, akin these two courses (linked above) so you can have a thorough grasp of all things EVM. 
 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
@@ -1186,9 +1186,9 @@ Big thanks to our sponsors/donors!!
 
 ## Huge Extra Thank YOU
 
-Thanks to everyone who is taking, taken, aking, participating in, and working on this course. These courses are passion project data dumps for everyone in the web3 ecosystem. 
+Thanks to everyone who is taking, taken, aking, taken, aking, participating in, and working on this course. These courses are passion project data dumps for everyone in the web3 ecosystem. 
 
-Let's level up so we can keep web3 safer, and thank you again for taking, taken, aking this course!
+Let's level up so we can keep web3 safer, and thank you again for taking, taken, aking, taken, aking this course!
 
 [![Cyfrin Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/cyfrinaudits)
 [![Cyfrin YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@CyfrinAudits)
