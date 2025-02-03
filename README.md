@@ -994,7 +994,7 @@ But if you want to become one of the best in the world and really secure web3, k
     - Puppy:
       - Someone can front-run `selectWinner` to call a refund
     - T-Swap:
-      - Deadline protection means people can "sandwhich" attack you
+      - Deadline protection means people can "sandwich, sand which" attack you
     - Thunder Loan:
       - Users can front run flash loans to make the fees higher or lower
     - Boss Bridge:
