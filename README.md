@@ -550,7 +550,10 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 * [Blockchain Threat Intelligence](https://newsletter.blockthreat.io?r=2mgsm7) (Referral link)
 * [Solodit (not a newsletter, but has constant updates of new hacks)](https://solodit.xyz/)
 * [rekt](https://rekt.news/)
-* [Week In Ethereum](https://weekinethereumnews.com/)
+* <span style="color: gray; text-decoration: none; cursor: default;" title="Week in Ethereum has ended.">
+    Week In Ethereum
+  </span> 
+  <a href="https://weekinethereum.substack.com/" target="_blank" style="margin-left: 6px; hover: underline; color: lightblue;">(here's why)</a>
 * [Consensys Diligence Newsletter](https://consensys.io/diligence/newsletter/)
 * [Officer CIA](https://officercia.mirror.xyz/)
 
