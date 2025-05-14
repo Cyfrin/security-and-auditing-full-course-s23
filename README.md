@@ -294,6 +294,10 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
 
 - [SC Exploits Minimized](https://github.com/Cyfrin/sc-exploits-minimized)
 
+### Signature Verification
+
+- [wise-signer](https://wise-signer.cyfrin.io/)
+
 ### Challenge Contracts Registry
 
 - [Challenge Contracts (zkSync)](https://explorer.zksync.io/address/0x176bB45B13AA90D2CD313d526F14a2F4C6583495)
