@@ -1185,7 +1185,6 @@ Big thanks to our sponsors/donors!!
 - [Matter Labs (zkSync)](https://zksync.io/)  
 - [Arbitrum Foundation](https://arbitrum.foundation/)
 - [Chainlink Labs](https://chainlinklabs.com/)
-- [Certora](https://www.certora.com/)
 
 ## Huge Extra Thank YOU
 
