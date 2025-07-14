@@ -7,7 +7,7 @@
 [issues-shield]: https://img.shields.io/github/issues/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
 [issues-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/issues
 [license-shield]: https://img.shields.io/github/license/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE.txt
+[license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 <h1 align="center"> Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
