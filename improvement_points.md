@@ -18,4 +18,4 @@ Some improvement notes on how to teach security and auditing in future curriculu
          3. Write report 
    2. Option B: Find bugs as you come across them (the current implementation, sort of)
 
-I think we should try Option A. Then, after each section, give students a DIFFERENT codebase for them to find the bugs in. Ideally these codebases can be made into first flights later. 
+I think we should try Option A. Then, after each section, give students a DIFFERENT codebase for them to find the bugs in. Ideally these codebases can be made into [first flights](https://www.cyfrin.io/codehawks/first-flights) later. 

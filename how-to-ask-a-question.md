@@ -52,8 +52,8 @@ I categorize questions into one of three:
 These are what we strive for. These are reproducible questions that help the world. You'll want to put these questions in places like:
 
 - The "Q&A" discussions section of this course
-- stackoverflow
-- stack exchange ETH. 
+- [StackOverflow](https://stackoverflow.com/questions)
+- [stack exchange ETH](https://ethereum.stackexchange.com/) 
 
 These are questions that typically can have a "right" or "many right answers". Generally, these are not very opinionated questions. 
 
