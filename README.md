@@ -281,6 +281,7 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
       - Like ChatGPT, but it searches the web
   - [Bard](https://bard.google.com/)
   - [Other AI extensions](https://twitter.com/aisolopreneur/status/1654823630155464704?s=42&t=-pu_sCYtfrfPJU7OXfifrQ)
+  - [devdacian - ai auditor primers](https://github.com/devdacian/ai-auditor-primers) - Collection of prompts to improve LLM performance for smart contracts from cyfrin's lead auditor 
 - Github Discussions 
     -   Ask questions and chat about the course here!
 -   [Stack Exchange Ethereum](https://ethereum.stackexchange.com/)
