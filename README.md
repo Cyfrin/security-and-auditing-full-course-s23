@@ -872,7 +872,7 @@ But if you want to become one of the best in the world and really secure web3, k
 
 💻 Security Review Code: [https://github.com/Cyfrin/6-thunder-loan-audit](https://github.com/Cyfrin/6-thunder-loan-audit)
 
-*We are staritng to get more advanced with DeFi and smart contract issues. Buckle up, we are getting hotter.*
+*We are starting to get more advanced with DeFi and smart contract issues. Buckle up, we are getting hotter.*
 
 ## Scoping & Reconnaissance: Thunder Loan
 ### DeFi: Borrowing & Lending
@@ -903,7 +903,7 @@ But if you want to become one of the best in the world and really secure web3, k
 ### Exploits: Oracle & Price Manipulation
   - [Flash Loans](https://www.youtube.com/watch?v=Aw7yvGFtOvI)
   - Case Study: [Alpha Homora](https://twitter.com/stellaxyz_/status/1360535699368251394)
-  - Case Study: [Creme Finance](https://rekt.news/cream-rekt-2/)
+  - Case Study: [Cream Finance](https://rekt.news/cream-rekt-2/)
 ## Design Patterns: Thunder Loan 
   - Pull over push 
 
@@ -1085,7 +1085,7 @@ The next sections (originally just called "part 2") have been moved to their own
 
 ## Highly Recommend
 
-We *highly* recommend takin these two courses (linked above) so you can have a thorough grasp of all things EVM. 
+We *highly* recommend taking these two courses (linked above) so you can have a thorough grasp of all things EVM. 
 
 <p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
