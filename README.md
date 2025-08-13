@@ -47,7 +47,7 @@ Please refer to this for an in-depth explanation of the content:
 -   [Website](https://updraft.cyfrin.io/) - Join Cyfrin Updraft and enjoy 50+ hours of smart contract development courses
 -   [Twitter](https://twitter.com/cyfrinupdraft) - Stay updated with the latest course releases
 -   [LinkedIn](https://www.linkedin.com/school/cyfrin-updraft/) - Add Updraft to your learning experiences
--   [Discord](http://discord.gg/cyfrin) - Join a community of 3000+ developers and auditors
+-   [Discord](https://discord.gg/wPWkvQSf65) - Join a community of 3000+ developers and auditors
 -   [Newsletter](https://www.cyfrin.io/newsletter) - Weekly security research tips and resources to level up your career
 -   [Codehawks](https://www.codehawks.com/) - Smart contracts auditing competitions to help securing web3
 
@@ -472,7 +472,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
 
 🐸 Exercise: 
-1. Join the [CodeHawks/Cyfrin Discord](https://discord.gg/cyfrin)
+1. Join the [CodeHawks/Cyfrin Discord](https://discord.gg/wPWkvQSf65)
 2. Go for a walk, and buckle up
 
 ### Section 1 NFT
@@ -1102,7 +1102,7 @@ If you've made it this far... wow.
     - We are working on many things to get you more deals. Stay tuned...
   - [Code4rena](https://code4rena.com/)
   - [Hats Finance](https://hats.finance/)
-- [CodeHawks Discord](https://discord.gg/cyfrin)
+- [CodeHawks Discord](https://discord.gg/wPWkvQSf65)
 - Start marketing your services
   - Twitter, Farcaster, LinkedIn, etc
   - Blogging: Medium, Mirror, etc
