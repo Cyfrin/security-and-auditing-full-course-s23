@@ -1097,7 +1097,7 @@ If you've made it this far... wow.
 
 ## Where do I go now?
 
-- Competititve Audits
+- Competitive Audits
   - [CodeHawks](https://codehawks.com)
     - We are working on many things to get you more deals. Stay tuned...
   - [Code4rena](https://code4rena.com/)
@@ -1122,7 +1122,7 @@ If you've made it this far... wow.
 
 ## Disclosures
 
-The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. They are an advisor to the Peeranha project, and run various blockchain nodes like Chainlink & Ethereum. Additionally, the are responsible for the creation of the Aderyn and Solodit tools.  
+The Cyfrin team runs CodeHawks, Cyfrin Updraft, and private security reviews. They are an advisor to the Peeranha project, and run various blockchain nodes like Chainlink & Ethereum. Additionally, they are responsible for the creation of the Aderyn and Solodit tools.  
 
 # Thank you
 
