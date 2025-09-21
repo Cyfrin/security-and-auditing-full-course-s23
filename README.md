@@ -619,7 +619,7 @@ For this demo, we are ignoring the last 2 phases
 ## The Setup (Scoping): PasswordStore
 ## V1
   - "Hey, here is my link to Etherscan, can I get an audit?"
-    - [Coinbase asset listing guide](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
+    - [Coinbase asset listing guide](https://www.coinbase.com/blog/A-Guide-to-the-Digital-Asset-Listing-Process-at-Coinbase)
 ### V2
   - Client onboarding: Minimal
 ### V3
