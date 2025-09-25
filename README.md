@@ -101,7 +101,7 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 <summary><a href="#-section-0-welcome-to-the-course">🤗 Section 0: Welcome to the Course</a></summary>
 <ol>
 <li><a href="#welcome">Welcome</a></li>
-<li><a href="#why-security">Why Security?</a></li>
+<li><a href="#why-web3-security">Why Web3 Security?</a></li>
 <li><a href="#why-web3-is-so-important">Why Web3 is so important</a></li>
 <li><a href="#the-final-boss-codebase-youll-be-able-to-audit-this-at-the-end-of-this-course">The Final Boss Codebase, you'll be able to audit this at the end of this course</a></li>
 <li><a href="#best-practices-for-this-course">Best Practices for this course</a></li>
@@ -130,13 +130,13 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 <details>
 <summary><a href="#️-section-3-your-first-audit-security-review--passwordstore-audit">⛳️ Section 3: Your first audit | PasswordStore Audit</a></summary>
 <ol>
-<li><a href="#security-review--audit">Security Review &gt; Audit</a></li>
+<li><a href="#the-setup-scoping-passwordstore">The Setup (Scoping): PasswordStore</a></li>
 <li><a href="#the-tincho">"The Tincho"</a></li>
-<li><a href="#exploits">Exploits</a></li>
+<li><a href="#exploits-vulnerability-identification">Exploits (Vulnerability Identification)</a></li>
 <li><a href="#exploits-access-controls">Exploits: Access Controls</a></li>
-<li><a href="#writing-your-first-finding">Writing your first finding</a></li>
 <li><a href="#exploits-private-data">Exploits: Private Data</a></li>
-<li><a href="#your-first-report">Your first report</a></li>
+<li><a href="#writing-your-first-finding">Writing your first finding</a></li>
+<li><a href="#your-first-report-reporting">Your first report (Reporting)</a></li>
 <li><a href="#section-3-nft">Section 3 NFT</a></li>
 </ol>
 </details>
@@ -619,7 +619,7 @@ For this demo, we are ignoring the last 2 phases
 ## The Setup (Scoping): PasswordStore
 ## V1
   - "Hey, here is my link to Etherscan, can I get an audit?"
-    - [Coinbase asset listing guide](https://www.coinbase.com/blog/a-guide-to-listing-assets-on-coinbase)
+    - [Coinbase asset listing guide](https://www.coinbase.com/blog/A-Guide-to-the-Digital-Asset-Listing-Process-at-Coinbase)
 ### V2
   - Client onboarding: Minimal
 ### V3
