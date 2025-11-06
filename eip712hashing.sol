@@ -64,7 +64,9 @@ contract Example {
     function verify(Mail mail, uint8 v, bytes32 r, bytes32 s) internal view returns (bool) {
         // Note: we need to use `encodePacked` here instead of `encode`.
         bytes32 digest = keccak256(abi.encodePacked("\x19\x01", DOMAIN_SEPARATOR, hash(mail)));
-        return ecrecover(digest, v, r, s) == mail.from.wallet;
+        address signer = ecrecover(digest, v, r, s);
+        require(signer != address(0), "Invalid signature");
+        return signer == mail.from.wallet;
     }
 
     function test() public view returns (bool) {
