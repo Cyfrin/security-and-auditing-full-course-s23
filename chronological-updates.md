@@ -1,1 +1,1 @@
-Please visit [Cyfrin Updraft](https://web3education.dev/) for updates to the course content. 
+Please visit [Cyfrin Updraft](https://updraft.cyfrin.io/) for updates to the course content. 
