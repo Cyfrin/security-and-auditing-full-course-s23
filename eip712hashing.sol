@@ -64,9 +64,69 @@ contract Example {
     function verify(Mail mail, uint8 v, bytes32 r, bytes32 s) internal view returns (bool) {
         // Note: we need to use `encodePacked` here instead of `encode`.
         bytes32 digest = keccak256(abi.encodePacked("\x19\x01", DOMAIN_SEPARATOR, hash(mail)));
+        
+        // Enhanced signature validation
+        // 1. Check for valid v parameter (27 or 28 for Ethereum)
+        if (v != 27 && v != 28) {
+            return false;
+        }
+        
+        // 2. Check for valid r and s parameters (must be non-zero and within valid range)
+        if (r == 0 || s == 0) {
+            return false;
+        }
+        
+        // 3. Check s value is in lower half of curve order (prevents signature malleability)
+        // secp256k1 curve order n = 0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
+        bytes32 maxS = 0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0;
+        if (s > maxS) {
+            return false;
+        }
+        
+        // 4. Perform ecrecover with additional safety checks
         address signer = ecrecover(digest, v, r, s);
-        require(signer != address(0), "Invalid signature");
+        
+        // 5. Ensure signer is not zero address and matches expected sender
+        if (signer == address(0)) {
+            return false;
+        }
+        
+        // 6. Ensure the expected sender is not zero address
+        if (mail.from.wallet == address(0)) {
+            return false;
+        }
+        
         return signer == mail.from.wallet;
+    }
+
+    /**
+     * @dev Alternative secure signature verification using bytes signature
+     * @param mail The mail struct to verify
+     * @param signature The signature bytes (65 bytes: r + s + v)
+     * @return bool indicating if signature is valid
+     */
+    function verifySignature(Mail mail, bytes signature) internal view returns (bool) {
+        if (signature.length != 65) {
+            return false;
+        }
+        
+        bytes32 r;
+        bytes32 s;
+        uint8 v;
+        
+        // Extract r, s, v from signature
+        assembly {
+            r := mload(add(signature, 32))
+            s := mload(add(signature, 64))
+            v := byte(0, mload(add(signature, 96)))
+        }
+        
+        // Adjust v if necessary (some wallets use 0/1 instead of 27/28)
+        if (v < 27) {
+            v += 27;
+        }
+        
+        return verify(mail, v, r, s);
     }
 
     function test() public view returns (bool) {
