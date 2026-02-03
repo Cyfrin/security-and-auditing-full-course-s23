@@ -8,7 +8,7 @@ Never made an open-source contribution before? Wondering how contributions work 
 
 - Clone the forked repository to your local machine using `git clone https://github.com/github-username/repository-name.git`. E.g. for a repo named "xyzRepo", the user can run `git clone https://github.com/github-username/xyzRepo.git`
 
-- Create a new branch for your fix using `git checkout -b branch-name-here`. E.g. `git checkout -b main`
+- Create a new branch for your fix using `git checkout -b branch-name-here`. E.g. `git checkout -b fix-typo`
 
 - Make the appropriate changes for the issue you are trying to address or the feature that you want to add.
 
