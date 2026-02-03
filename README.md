@@ -476,7 +476,7 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
 2. Go for a walk, and buckle up
 
 ### Section 1 NFT
-- [Refresher Fresh NFT (zkSync)](https://arbiscan.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
+- [Refresher Fresh NFT (zkSync)](https://explorer.zksync.io/address/0x7a0f40757f6ba868b44ce959a1d4b8bc22c21d59)
 - [Refresher Fresh NFT (Sepolia)](https://sepolia.etherscan.io/address/0x76d2403b80591d5f6af2b468bc14205fa5452ac0)
 
 🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸
