@@ -2,13 +2,13 @@
 
 Thank you for wanting to answer questions! This is how we grow as a community :)
 
-1. Make sure the question follows the "how-to-ask-a-good-question" guide
+1. Make sure the question follows the "how-to-ask-a-question" guide
 2. Make sure your answer unblocks the user
 3. Remember, this is living documentation!
 4. Format your answers, like in the `how-to-ask-a-question` guide. 
 
 
-# 1. Make sure the question follows the "how-to-ask-a-good-question" guide
+# 1. Make sure the question follows the "how-to-ask-a-question" guide
 
 If the question is poorly formatted and you know how to reformat it, reformat it and ask them next time to format their code.
 
