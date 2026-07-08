@@ -216,9 +216,9 @@ _Note: If you're familiar with Patrick's previous courses, we have renamed "Less
 </ol>
 </details>
 <details>
-<summary><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></summary>
+<summary><a href="#-section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">🛡️ Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></summary>
 <ol>
-<li><a href="#section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></li>
+<li><a href="#-section-8-the-final-boss-audit-mev-nodes--daos--vault-guardians-audit">Section 8: (THE FINAL BOSS AUDIT) MEV, Nodes, & DAOs | Vault Guardians Audit</a></li>
 <li><a href="#concepts-vault-guardians">Concepts: Vault Guardians</a>
   <ul>
     <li><a href="#exploits-governance-attack">Exploits: Governance Attack</a></li>
