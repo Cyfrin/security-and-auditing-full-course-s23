@@ -7,7 +7,7 @@
 [issues-shield]: https://img.shields.io/github/issues/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
 [issues-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/issues
 [license-shield]: https://img.shields.io/github/license/cyfrin/security-and-auditing-full-course-s23.svg?style=for-the-badge
-[license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/master/LICENSE
+[license-url]: https://github.com/cyfrin/security-and-auditing-full-course-s23/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 <h1 align="center"> Smart Contract Auditing, Assembly, Security, and DeFi Ultimate Course
@@ -286,7 +286,7 @@ Join [Cyfrin Updraft](https://updraft.cyfrin.io/) for the best learning experien
     -   Ask questions and chat about the course here!
 -   [Stack Exchange Ethereum](https://ethereum.stackexchange.com/)
     -   Great place for asking technical questions about Ethereum
--   [Peeranha](https://peeranha.io/)
+-   [Peeranha](https://peera.ai/)
     -   Decentralized Stack Exchange!
 -   [Cookbook](./cookbook-listings.md)
     -   A smart contract registry and co-pilot
@@ -459,8 +459,8 @@ And finally, by embarking on this journey, you are now a "Security Researcher", 
   - Fallback & Receive
   - Encoding, Call, & Staticcall
     - Clip from the foundry full course
-    - [Encoding.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/Encoding.sol)
-    - [CallAnything.sol](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
+    - [Encoding.sol](https://github.com/Cyfrin/foundry-nft-cu/blob/main/src/sublesson/Encoding.sol)
+    - [CallAnything.sol](https://github.com/Cyfrin/foundry-nft-cu/blob/main/src/sublesson/CallAnything.sol)
   - Delegatecall & Proxies 
     - Clip from foundry full course
   - tx.origin vs msg.sender 
@@ -628,7 +628,7 @@ For this demo, we are ignoring the last 2 phases
   - Read docs
   - Note taking in-code
   - Small -> Large
-  - [Solidity Metrics](https://github.com/Consensys/solidity-metrics)
+  - [Solidity Metrics](https://github.com/ConsenSysDiligence/solidity-metrics)
   - [Tincho’s ENS Review](https://www.youtube.com/watch?app=desktop&v=A-T9F0anN1E)
 ## Exploits (Vulnerability Identification)
 ### Exploits: Access Controls
@@ -711,7 +711,7 @@ For this demo, we are ignoring the last 2 phases
    - [Slither](https://github.com/crytic/slither)
    - [Aderyn](https://github.com/Cyfrin/aderyn)
  - [cloc](https://github.com/AlDanial/cloc)
- - [Solidity Metrics (audit estimation)](https://github.com/Consensys/solidity-metrics)
+ - [Solidity Metrics (audit estimation)](https://github.com/ConsenSysDiligence/solidity-metrics)
  - [Solidity Visual Developer](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 ## Scoping & Reconnaissance: Puppy Raffle
 ### Exploits: DoS (Denial of service)
@@ -884,7 +884,7 @@ But if you want to become one of the best in the world and really secure web3, k
    - Proxies
      - [UUPS & Transparent](https://docs.openzeppelin.com/contracts/4.x/api/proxy)
      - [Multi-facet Proxy (Diamond)](https://eips.ethereum.org/EIPS/eip-2535)
-     - [Foundry Proxies & Upgrades](https://github.com/Cyfrin/foundry-upgrades-f23)
+     - [Foundry Proxies & Upgrades](https://github.com/Cyfrin/foundry-upgrades-cu)
      - [What are upgradeable smart contracts?](https://www.youtube.com/watch?v=bdXJmWajZRY)
    - Centralization
 ### Malicious Scope
@@ -943,7 +943,7 @@ But if you want to become one of the best in the world and really secure web3, k
   - Precompiles
     - Case Study: [Polygon](https://youtu.be/QdIG7TfjUiM)
   - [Public private key demo](https://github.com/anders94/public-private-key-demo)
-  - [Encoding & Decoding Refresher](https://github.com/Cyfrin/foundry-nft-f23/blob/main/src/sublesson/CallAnything.sol)
+  - [Encoding & Decoding Refresher](https://github.com/Cyfrin/foundry-nft-cu/blob/main/src/sublesson/CallAnything.sol)
 ### Exploits: Opcode Support
   - Case study: [zkSync](https://medium.com/coinmonks/gemstoneido-contract-stuck-with-921-eth-an-analysis-of-why-transfer-does-not-work-on-zksync-era-d5a01807227d)
 ### Exploits: Signature Replay
@@ -1042,7 +1042,7 @@ But if you want to become one of the best in the world and really secure web3, k
 1. [1st CodeHawks Competitive Audit](https://codehawks.com/) 
 2. Write a tweet thread about an [interesting finding from Solodit](https://solodit.xyz/)
 3. Write a blog or tweet on your experience! 
-4. Read [these tips](https://github.com/0xJuancito/multichain-auditor) for auditing multi-chain protocols 
+4. Read [these tips](https://github.com/juancito-dev/multichain-auditor) for auditing multi-chain protocols 
 
 ### Section 8 NFT
 - [GO OUT THERE AND GET IT!!! (zkSync)](https://explorer.zksync.io/address/0xC580F34dafb8Fd324Fa22C3aCABF8cb2090117e2)
